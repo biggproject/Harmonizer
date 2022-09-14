@@ -1,0 +1,66 @@
+{
+    "grouping": [
+        {
+            "name": "Grouping_1",
+            "zones": [
+                {
+                    "name": "Entry",
+                    "spaces": [
+                        {"name": "space002"},
+                        {"name": "space003"},
+                        {"name": "space004"}
+                    ]
+                },
+                {
+                    "name": "Appartment_1",
+                    "spaces": [
+                        {"name": "space102"},
+                        {"name": "space103"},
+                        {"name": "space104"}
+                    ]
+                },
+                {
+                    "name": "Appartment_2",
+                    "spaces": [
+                        {"name": "space202"},
+                        {"name": "space203"},
+                        {"name": "space204"}
+                    ]
+                },
+                {
+                    "name": "commons",
+                    "spaces": [
+                        {"name": "space001"},
+                        {"name": "space101"},
+                        {"name": "space201"}
+                    ]
+                }
+            ],
+			"systems": [
+				{
+					"name": "Th_system",
+					"devices": [
+                        {"name": "ThSensor104-01"},
+                        {"name": "ThSensor202-01"}
+					]
+				},
+				{
+					"name": "Hd_system",
+					"devices": [
+                        {"name": "HdSensor104-02"},
+                        {"name": "HdSensor202-02"}
+					]
+				},
+				{
+					"name": "Appartment_2_system",
+					"serves": "Appartment_2",
+					"devices": [
+                        {"name": "ThSensor202-01"},
+                        {"name": "HdSensor202-02"}
+					]
+				}
+			]
+        },
+        {"name": "Grouping_2"}
+    ]
+}

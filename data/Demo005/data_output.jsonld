@@ -1,0 +1,206 @@
+[ {
+  "@id" : "http://bigg-project.eu/Sensor",
+  "@type" : [ "http://bigg-project.eu/BuildingSystem" ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/BatA",
+  "@type" : [ "http://bigg-project.eu/Building" ],
+  "http://bigg-project.eu/guid" : [ {
+    "@value" : "4c5ec575c534efc17014c19dc6c2a53f"
+  } ],
+  "http://bigg-project.eu/hasSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/space_BatA"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "BatA"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/BatB",
+  "@type" : [ "http://bigg-project.eu/Building" ],
+  "http://bigg-project.eu/guid" : [ {
+    "@value" : "37e5fc91cc8c10cda8397f490b803c45"
+  } ],
+  "http://bigg-project.eu/hasSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/space_BatB"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "BatB"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/HdSensor104-02",
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "HdSensor104-02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://bigg-project.eu/Sensor"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/HdSensor202-02",
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "HdSensor202-02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://bigg-project.eu/Sensor"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/ThSensor104-01",
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "ThSensor104-01"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://bigg-project.eu/Sensor"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/ThSensor202-01",
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "ThSensor202-01"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://bigg-project.eu/Sensor"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space001",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space001"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space002",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space002"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space003",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space003"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space004",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space004"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space101",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space101"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space102",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space102"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space103",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space103"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space104",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/hasDevice" : [ {
+    "@id" : "http://bigg-project.eu/instances/HdSensor104-02"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/ThSensor104-01"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space104"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space201",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space201"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space202",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/hasDevice" : [ {
+    "@id" : "http://bigg-project.eu/instances/HdSensor202-02"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/ThSensor202-01"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space202"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space203",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space203"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space204",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space204"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space_BatA",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/hasSubSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/space_R%2B1"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space_R%2B2"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space_RdC"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space_BatA"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space_BatB",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space_BatB"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space_R%2B1",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/hasSubSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/space101"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space102"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space103"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space104"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space_R+1"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space_R%2B2",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/hasSubSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/space201"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space202"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space203"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space204"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space_R+2"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/space_RdC",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/hasSubSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/space001"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space002"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space003"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space004"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "space_RdC"
+  } ]
+} ]

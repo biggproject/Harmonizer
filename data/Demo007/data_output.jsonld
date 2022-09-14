@@ -1,0 +1,122 @@
+[ {
+  "@id" : "http://bigg-project.eu/instances/Appartment_1",
+  "@type" : [ "http://bigg-project.eu/Zone" ],
+  "http://bigg-project.eu/containsBuildingSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/space102"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space103"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space104"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "Appartment_1"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/Appartment_2",
+  "@type" : [ "http://bigg-project.eu/Zone" ],
+  "http://bigg-project.eu/containsBuildingSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/space202"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space203"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space204"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "Appartment_2"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/Appartment_2_system",
+  "@type" : [ "http://bigg-project.eu/System" ],
+  "http://bigg-project.eu/containsElement" : [ {
+    "@id" : "http://bigg-project.eu/instances/HdSensor202-02"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/ThSensor202-01"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "Appartment_2_system"
+  } ],
+  "http://bigg-project.eu/servesZone" : [ {
+    "@id" : "http://bigg-project.eu/instances/Appartment_2"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/Entry",
+  "@type" : [ "http://bigg-project.eu/Zone" ],
+  "http://bigg-project.eu/containsBuildingSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/space002"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space003"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space004"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "Entry"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/Grouping_1",
+  "@type" : [ "http://bigg-project.eu/Group" ],
+  "http://bigg-project.eu/guid" : [ {
+    "@value" : "4e7a0a8b9742ffe4dc0eaeb981e5e017"
+  } ],
+  "http://bigg-project.eu/hasSubGroup" : [ {
+    "@id" : "http://bigg-project.eu/instances/Appartment_1"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/Appartment_2"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/Appartment_2_system"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/Entry"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/Hd_system"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/Th_system"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/commons"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "Grouping_1"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/Grouping_2",
+  "@type" : [ "http://bigg-project.eu/Group" ],
+  "http://bigg-project.eu/guid" : [ {
+    "@value" : "e168b71bfc5a5c0cbe826e151df2a6f9"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "Grouping_2"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/Hd_system",
+  "@type" : [ "http://bigg-project.eu/System" ],
+  "http://bigg-project.eu/containsElement" : [ {
+    "@id" : "http://bigg-project.eu/instances/HdSensor104-02"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/HdSensor202-02"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "Hd_system"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/Th_system",
+  "@type" : [ "http://bigg-project.eu/System" ],
+  "http://bigg-project.eu/containsElement" : [ {
+    "@id" : "http://bigg-project.eu/instances/ThSensor104-01"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/ThSensor202-01"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "Th_system"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/commons",
+  "@type" : [ "http://bigg-project.eu/Zone" ],
+  "http://bigg-project.eu/containsBuildingSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/space001"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space101"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/space201"
+  } ],
+  "http://bigg-project.eu/name" : [ {
+    "@value" : "commons"
+  } ]
+} ]
