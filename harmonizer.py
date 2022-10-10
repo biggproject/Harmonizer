@@ -57,20 +57,23 @@ if __name__ == "__main__":
 
     # Global Path
     current_path = os.getcwd()
-    folder_data = 'Demo007'
-    path_data = os.path.join(current_path,'data', folder_data)
+    #folder_data = 'Demo007'
+    
 
     # Arguments
     args = sys.argv
 
-    if len(args) != 4:
+    if len(args) != 5:
         print('Error in arguments')
         sys.exit()
     else:
         # File name
-        JSON_data = args[1]
-        RML_file = args[2]
-        output_format = args[3] 
+        folder_data = args[1]
+        path_data = os.path.join(current_path,'data', folder_data)
+        
+        JSON_data = args[2]
+        RML_file = args[3]
+        output_format = args[4] 
 
         path_output = os.path.join(path_data,JSON_data.split('.')[0] + '_output.' + output_format.lower())
         path_Json_data = os.path.join(path_data, JSON_data)
