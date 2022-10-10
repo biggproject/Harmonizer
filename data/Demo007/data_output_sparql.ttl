@@ -17,8 +17,8 @@
     ns1:guid "e168b71bfc5a5c0cbe826e151df2a6f9" ;
     ns1:name "Grouping_2" .
 
-<urn:uuid:a95f2449-1618-499c-9368-03c5033e6e97> a <http://bigg-project.eu/ontology#hamonizedData> ;
-    dcterms:created "2022-10-10T11:36:22.757682+00:00"^^xsd:dateTime ;
+<urn:uuid:27469428-04d2-4e36-9093-f140f62b740e> a <http://bigg-project.eu/ontology#hamonizedData> ;
+    dcterms:created "2022-10-10T12:39:00.304504+00:00"^^xsd:dateTime ;
     dcterms:source "Hamonizer v1.0" .
 
 <http://bigg-project.eu/instances/Appartment_1> a ns1:Zone ;
