@@ -62,6 +62,7 @@ if __name__ == "__main__":
 
     # Arguments
     args = sys.argv
+    #folder name    # JSON file   # Mapping file   # output format
 
     if len(args) != 5:
         print('Error in arguments')
