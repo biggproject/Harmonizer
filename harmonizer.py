@@ -31,7 +31,9 @@ def harmonizer(json_file, mapping_file, output_format, output_file):
 
     # HARMONIZE DATA 
     if output_format.lower() == 'jsonld':
+        print("java -jar rml.jar -m {} -s jsonld -o {}".format(mapping_file,output_file))
         os.system("java -jar rml.jar -m {} -s jsonld -o {}".format(mapping_file,output_file))
+
         
     elif output_format.lower() == 'ttl':
         os.system("java -jar rml.jar -m {} -o {}".format(mapping_file,output_file))

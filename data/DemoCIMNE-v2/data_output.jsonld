@@ -1,0 +1,229 @@
+[ {
+  "@id" : "http://bigg-project.eu/instances/buildingSpace_03525",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/buildingSpaceName" : [ {
+    "@value" : "building_03525"
+  } ],
+  "http://bigg-project.eu/hasArea" : [ {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorArea-GPG-03525"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorAreaAboveGround-GPG-03525"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorAreaUnderGround-GPG-03525"
+  } ],
+  "http://bigg-project.eu/hasBuildingSpaceUseType" : [ {
+    "@value" : "['Judicial']"
+  } ],
+  "http://bigg-project.eu/isAssociatedWithElement" : [ {
+    "@id" : "http://bigg-project.eu/instances/Device_ES0031405787597036KW0F"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/Device_ES0031405787598004VG0F"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/Device_ES0031405788093001XH0F"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/Device_ES0031405788093040NB0F"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/Device_ES0031405788094032DZ0F"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/buildingSpace_03536",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/buildingSpaceName" : [ {
+    "@value" : "building_03536"
+  } ],
+  "http://bigg-project.eu/hasArea" : [ {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorArea-GPG-03536"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorAreaAboveGround-GPG-03536"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorAreaUnderGround-GPG-03536"
+  } ],
+  "http://bigg-project.eu/hasBuildingSpaceUseType" : [ {
+    "@value" : "[\"Comissaria de mossos d'esquadra\"]"
+  } ],
+  "http://bigg-project.eu/isAssociatedWithElement" : [ {
+    "@id" : "http://bigg-project.eu/instances/Device_ES0031405923722001EL0F"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/buildingSpace_03563",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/buildingSpaceName" : [ {
+    "@value" : "building_03563"
+  } ],
+  "http://bigg-project.eu/hasArea" : [ {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorArea-GPG-03563"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorAreaAboveGround-GPG-03563"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorAreaUnderGround-GPG-03563"
+  } ],
+  "http://bigg-project.eu/hasBuildingSpaceUseType" : [ {
+    "@value" : "['Oficina']"
+  } ],
+  "http://bigg-project.eu/isAssociatedWithElement" : [ {
+    "@id" : "http://bigg-project.eu/instances/Device_ES0031405653258001CB0F"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/buildingSpace_03573",
+  "@type" : [ "http://bigg-project.eu/BuildingSpace" ],
+  "http://bigg-project.eu/buildingSpaceName" : [ {
+    "@value" : "building_03573"
+  } ],
+  "http://bigg-project.eu/hasArea" : [ {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorArea-GPG-03573"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorAreaAboveGround-GPG-03573"
+  }, {
+    "@id" : "http://bigg-project.eu/instances/AREA-GrossFloorAreaUnderGround-GPG-03573"
+  } ],
+  "http://bigg-project.eu/hasBuildingSpaceUseType" : [ {
+    "@value" : "['Centre cívic']"
+  } ],
+  "http://bigg-project.eu/isAssociatedWithElement" : [ {
+    "@id" : "http://bigg-project.eu/instances/Device_ES0031446409854003HZ0F"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/building_03525",
+  "@type" : [ "http://bigg-project.eu/Building" ],
+  "http://bigg-project.eu/buildingName" : [ {
+    "@value" : "Jutjat 1a. Inst. i Instr. 1, 2, 3, 4, 5 i 6 - Complex Solarium"
+  } ],
+  "http://bigg-project.eu/hasCadastralInfo" : [ {
+    "@id" : "http://bigg-project.eu/instances/cadastralInfo_0125306DF1902N0270QM"
+  } ],
+  "http://bigg-project.eu/hasLocationInfo" : [ {
+    "@id" : "http://bigg-project.eu/instances/locationInfo_03525"
+  } ],
+  "http://bigg-project.eu/hasSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/buildingSpace_03525"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/building_03536",
+  "@type" : [ "http://bigg-project.eu/Building" ],
+  "http://bigg-project.eu/buildingName" : [ {
+    "@value" : "Comissaria de Mossos d'Esquadra"
+  } ],
+  "http://bigg-project.eu/hasCadastralInfo" : [ {
+    "@id" : "http://bigg-project.eu/instances/cadastralInfo_2387802DG1928N0001MW"
+  } ],
+  "http://bigg-project.eu/hasLocationInfo" : [ {
+    "@id" : "http://bigg-project.eu/instances/locationInfo_03536"
+  } ],
+  "http://bigg-project.eu/hasSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/buildingSpace_03536"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/building_03563",
+  "@type" : [ "http://bigg-project.eu/Building" ],
+  "http://bigg-project.eu/buildingName" : [ {
+    "@value" : "OTG Tarragona - Claret"
+  } ],
+  "http://bigg-project.eu/hasCadastralInfo" : [ {
+    "@id" : "http://bigg-project.eu/instances/cadastralInfo_3038205CF5523H0001IQ"
+  } ],
+  "http://bigg-project.eu/hasLocationInfo" : [ {
+    "@id" : "http://bigg-project.eu/instances/locationInfo_03563"
+  } ],
+  "http://bigg-project.eu/hasSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/buildingSpace_03563"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/building_03573",
+  "@type" : [ "http://bigg-project.eu/Building" ],
+  "http://bigg-project.eu/buildingName" : [ {
+    "@value" : "Casa del Mar d'El Port de la Selva"
+  } ],
+  "http://bigg-project.eu/hasCadastralInfo" : [ {
+    "@id" : "http://bigg-project.eu/instances/cadastralInfo_6875508EG1867N0001OO"
+  } ],
+  "http://bigg-project.eu/hasLocationInfo" : [ {
+    "@id" : "http://bigg-project.eu/instances/locationInfo_03573"
+  } ],
+  "http://bigg-project.eu/hasSpace" : [ {
+    "@id" : "http://bigg-project.eu/instances/buildingSpace_03573"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/cadastralInfo_0125306DF1902N0270QM",
+  "@type" : [ "http://bigg-project.eu/CadastralInfo" ],
+  "http://bigg-project.eu/landArea" : [ {
+    "@value" : "0.0"
+  } ],
+  "http://bigg-project.eu/landCadastralReference" : [ {
+    "@value" : "0125306DF1902N0270QM"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/cadastralInfo_2387802DG1928N0001MW",
+  "@type" : [ "http://bigg-project.eu/CadastralInfo" ],
+  "http://bigg-project.eu/landArea" : [ {
+    "@value" : "1591.0"
+  } ],
+  "http://bigg-project.eu/landCadastralReference" : [ {
+    "@value" : "2387802DG1928N0001MW"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/cadastralInfo_3038205CF5523H0001IQ",
+  "@type" : [ "http://bigg-project.eu/CadastralInfo" ],
+  "http://bigg-project.eu/landArea" : [ {
+    "@value" : "0.0"
+  } ],
+  "http://bigg-project.eu/landCadastralReference" : [ {
+    "@value" : "3038205CF5523H0001IQ"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/cadastralInfo_6875508EG1867N0001OO",
+  "@type" : [ "http://bigg-project.eu/CadastralInfo" ],
+  "http://bigg-project.eu/landArea" : [ {
+    "@value" : "0.0"
+  } ],
+  "http://bigg-project.eu/landCadastralReference" : [ {
+    "@value" : "6875508EG1867N0001OO"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/locationInfo_03525",
+  "@type" : [ "http://bigg-project.eu/LocationInfo" ],
+  "http://bigg-project.eu/addressStreetName" : [ {
+    "@value" : "Sindicat"
+  } ],
+  "http://bigg-project.eu/addressStreetNumber" : [ {
+    "@value" : "6"
+  } ],
+  "http://bigg-project.eu/hasAddressProvince" : [ {
+    "@id" : "http://bigg-project.eu/instances/addressProvince_Barcelona"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/locationInfo_03536",
+  "@type" : [ "http://bigg-project.eu/LocationInfo" ],
+  "http://bigg-project.eu/addressStreetName" : [ {
+    "@value" : "Joan Maragall"
+  } ],
+  "http://bigg-project.eu/addressStreetNumber" : [ {
+    "@value" : "63"
+  } ],
+  "http://bigg-project.eu/hasAddressProvince" : [ {
+    "@id" : "http://bigg-project.eu/instances/addressProvince_Girona"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/locationInfo_03563",
+  "@type" : [ "http://bigg-project.eu/LocationInfo" ],
+  "http://bigg-project.eu/addressStreetName" : [ {
+    "@value" : "Sant Antoni Maria Claret"
+  } ],
+  "http://bigg-project.eu/addressStreetNumber" : [ {
+    "@value" : "22"
+  } ],
+  "http://bigg-project.eu/hasAddressProvince" : [ {
+    "@id" : "http://bigg-project.eu/instances/addressProvince_Tarragona"
+  } ]
+}, {
+  "@id" : "http://bigg-project.eu/instances/locationInfo_03573",
+  "@type" : [ "http://bigg-project.eu/LocationInfo" ],
+  "http://bigg-project.eu/addressStreetName" : [ {
+    "@value" : "de l'Illa"
+  } ],
+  "http://bigg-project.eu/addressStreetNumber" : [ {
+    "@value" : "11"
+  } ],
+  "http://bigg-project.eu/hasAddressProvince" : [ {
+    "@id" : "http://bigg-project.eu/instances/addressProvince_Girona"
+  } ]
+} ]

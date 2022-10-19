@@ -58,11 +58,11 @@ map:om_005 rdf:type rr:ObjectMap ;
 
 map:om_006 rml:reference "Sup_terreny" ;
 	rdf:type rr:ObjectMap ;
-	rr:termType rr:IRI .
+	rr:termType rr:Literal .
 
 map:om_007 rml:reference "Ref_Cadastral[0]" ;
 	rdf:type rr:ObjectMap ;
-	rr:termType rr:IRI .
+	rr:termType rr:Literal .
 
 map:om_008 rdf:type rr:ObjectMap ;
 	rr:constant "http://bigg-project.eu/LocationInfo" ;
@@ -244,7 +244,7 @@ map:s_003 rdf:type rr:SubjectMap ;
 
 map:source_000 rml:iterator "$.Buildings[*]" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "data.json" ;
+	rml:source "data\DemoCIMNE-v2\data.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "data1" .
 

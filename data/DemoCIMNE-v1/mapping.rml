@@ -77,7 +77,7 @@ map:s_000 rdf:type rr:SubjectMap ;
 
 map:source_000 rml:iterator "$.Buildings[*]" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "data\DemoCIMNE\data.json" ;
+	rml:source "data\DemoCIMNE-v1\data.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "data1" .
 
