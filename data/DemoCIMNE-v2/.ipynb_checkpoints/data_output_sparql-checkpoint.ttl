@@ -1,0 +1,104 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://bigg-project.eu/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://bigg-project.eu/instances/building_03525> a ns1:Building ;
+    ns1:buildingName "Jutjat 1a. Inst. i Instr. 1, 2, 3, 4, 5 i 6 - Complex Solarium" ;
+    ns1:hasCadastralInfo <http://bigg-project.eu/instances/cadastralInfo_0125306DF1902N0270QM> ;
+    ns1:hasLocationInfo <http://bigg-project.eu/instances/locationInfo_03525> ;
+    ns1:hasSpace <http://bigg-project.eu/instances/buildingSpace_03525> .
+
+<http://bigg-project.eu/instances/building_03536> a ns1:Building ;
+    ns1:buildingName "Comissaria de Mossos d'Esquadra" ;
+    ns1:hasCadastralInfo <http://bigg-project.eu/instances/cadastralInfo_2387802DG1928N0001MW> ;
+    ns1:hasLocationInfo <http://bigg-project.eu/instances/locationInfo_03536> ;
+    ns1:hasSpace <http://bigg-project.eu/instances/buildingSpace_03536> .
+
+<http://bigg-project.eu/instances/building_03563> a ns1:Building ;
+    ns1:buildingName "OTG Tarragona - Claret" ;
+    ns1:hasCadastralInfo <http://bigg-project.eu/instances/cadastralInfo_3038205CF5523H0001IQ> ;
+    ns1:hasLocationInfo <http://bigg-project.eu/instances/locationInfo_03563> ;
+    ns1:hasSpace <http://bigg-project.eu/instances/buildingSpace_03563> .
+
+<http://bigg-project.eu/instances/building_03573> a ns1:Building ;
+    ns1:buildingName "Casa del Mar d'El Port de la Selva" ;
+    ns1:hasCadastralInfo <http://bigg-project.eu/instances/cadastralInfo_6875508EG1867N0001OO> ;
+    ns1:hasLocationInfo <http://bigg-project.eu/instances/locationInfo_03573> ;
+    ns1:hasSpace <http://bigg-project.eu/instances/buildingSpace_03573> .
+
+<urn:uuid:3202d329-6d8c-4ef6-b32b-72e04ff478b1> a <http://bigg-project.eu/ontology#hamonizedData> ;
+    dcterms:created "2022-10-21T07:40:51.785523+00:00"^^xsd:dateTime ;
+    dcterms:source "Hamonizer v1.0" .
+
+<http://bigg-project.eu/instances/buildingSpace_03525> a ns1:BuildingSpace ;
+    ns1:buildingSpaceName "building_03525" ;
+    ns1:hasArea <http://bigg-project.eu/instances/AREA-GrossFloorArea-GPG-03525>,
+        <http://bigg-project.eu/instances/AREA-GrossFloorAreaAboveGround-GPG-03525>,
+        <http://bigg-project.eu/instances/AREA-GrossFloorAreaUnderGround-GPG-03525> ;
+    ns1:hasBuildingSpaceUseType "['Judicial']" ;
+    ns1:isAssociatedWithElement <http://bigg-project.eu/instances/Device_ES0031405787597036KW0F>,
+        <http://bigg-project.eu/instances/Device_ES0031405787598004VG0F>,
+        <http://bigg-project.eu/instances/Device_ES0031405788093001XH0F>,
+        <http://bigg-project.eu/instances/Device_ES0031405788093040NB0F>,
+        <http://bigg-project.eu/instances/Device_ES0031405788094032DZ0F> .
+
+<http://bigg-project.eu/instances/buildingSpace_03536> a ns1:BuildingSpace ;
+    ns1:buildingSpaceName "building_03536" ;
+    ns1:hasArea <http://bigg-project.eu/instances/AREA-GrossFloorArea-GPG-03536>,
+        <http://bigg-project.eu/instances/AREA-GrossFloorAreaAboveGround-GPG-03536>,
+        <http://bigg-project.eu/instances/AREA-GrossFloorAreaUnderGround-GPG-03536> ;
+    ns1:hasBuildingSpaceUseType "[\"Comissaria de mossos d'esquadra\"]" ;
+    ns1:isAssociatedWithElement <http://bigg-project.eu/instances/Device_ES0031405923722001EL0F> .
+
+<http://bigg-project.eu/instances/buildingSpace_03563> a ns1:BuildingSpace ;
+    ns1:buildingSpaceName "building_03563" ;
+    ns1:hasArea <http://bigg-project.eu/instances/AREA-GrossFloorArea-GPG-03563>,
+        <http://bigg-project.eu/instances/AREA-GrossFloorAreaAboveGround-GPG-03563>,
+        <http://bigg-project.eu/instances/AREA-GrossFloorAreaUnderGround-GPG-03563> ;
+    ns1:hasBuildingSpaceUseType "['Oficina']" ;
+    ns1:isAssociatedWithElement <http://bigg-project.eu/instances/Device_ES0031405653258001CB0F> .
+
+<http://bigg-project.eu/instances/buildingSpace_03573> a ns1:BuildingSpace ;
+    ns1:buildingSpaceName "building_03573" ;
+    ns1:hasArea <http://bigg-project.eu/instances/AREA-GrossFloorArea-GPG-03573>,
+        <http://bigg-project.eu/instances/AREA-GrossFloorAreaAboveGround-GPG-03573>,
+        <http://bigg-project.eu/instances/AREA-GrossFloorAreaUnderGround-GPG-03573> ;
+    ns1:hasBuildingSpaceUseType "['Centre cÃ­vic']" ;
+    ns1:isAssociatedWithElement <http://bigg-project.eu/instances/Device_ES0031446409854003HZ0F> .
+
+<http://bigg-project.eu/instances/cadastralInfo_0125306DF1902N0270QM> a ns1:CadastralInfo ;
+    ns1:landArea "0.0" ;
+    ns1:landCadastralReference "0125306DF1902N0270QM" .
+
+<http://bigg-project.eu/instances/cadastralInfo_2387802DG1928N0001MW> a ns1:CadastralInfo ;
+    ns1:landArea "1591.0" ;
+    ns1:landCadastralReference "2387802DG1928N0001MW" .
+
+<http://bigg-project.eu/instances/cadastralInfo_3038205CF5523H0001IQ> a ns1:CadastralInfo ;
+    ns1:landArea "0.0" ;
+    ns1:landCadastralReference "3038205CF5523H0001IQ" .
+
+<http://bigg-project.eu/instances/cadastralInfo_6875508EG1867N0001OO> a ns1:CadastralInfo ;
+    ns1:landArea "0.0" ;
+    ns1:landCadastralReference "6875508EG1867N0001OO" .
+
+<http://bigg-project.eu/instances/locationInfo_03525> a ns1:LocationInfo ;
+    ns1:addressStreetName "Sindicat" ;
+    ns1:addressStreetNumber "6" ;
+    ns1:hasAddressProvince <http://bigg-project.eu/instances/addressProvince_Barcelona> .
+
+<http://bigg-project.eu/instances/locationInfo_03536> a ns1:LocationInfo ;
+    ns1:addressStreetName "Joan Maragall" ;
+    ns1:addressStreetNumber "63" ;
+    ns1:hasAddressProvince <http://bigg-project.eu/instances/addressProvince_Girona> .
+
+<http://bigg-project.eu/instances/locationInfo_03563> a ns1:LocationInfo ;
+    ns1:addressStreetName "Sant Antoni Maria Claret" ;
+    ns1:addressStreetNumber "22" ;
+    ns1:hasAddressProvince <http://bigg-project.eu/instances/addressProvince_Tarragona> .
+
+<http://bigg-project.eu/instances/locationInfo_03573> a ns1:LocationInfo ;
+    ns1:addressStreetName "de l'Illa" ;
+    ns1:addressStreetNumber "11" ;
+    ns1:hasAddressProvince <http://bigg-project.eu/instances/addressProvince_Girona> .
+
