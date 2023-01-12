@@ -1,0 +1,19 @@
+prefix : <http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_TC1#> 
+prefix bigg: <http://bigg-project.eu/ontology#> 
+prefix dc: <http://purl.org/dc/terms/> 
+
+CONSTRUCT {
+  ?building a bigg:Building ; bigg:hasSpace ?space . 
+  ?space a bigg:BuildingSpace ; bigg:isContainedInZone ?storey . 
+  ?s ?p ?o .
+  []  a bigg:test ;
+} WHERE {
+ {
+  SELECT ?date ?uri 
+  WHERE {
+   ?building a :IfcBuilding . 
+   ?storey a :IfcBuildingStorey .
+   }
+  }
+ ?s ?p ?o .
+}

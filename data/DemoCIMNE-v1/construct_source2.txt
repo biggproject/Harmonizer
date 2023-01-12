@@ -1,0 +1,18 @@
+prefix bigg: <http://bigg-project.eu/ontology#>
+prefix dc: <http://purl.org/dc/terms/> 
+
+CONSTRUCT {
+?uri  a bigg:hamonizedData ;
+      dc:created ?date ;
+      dc:source "Hamonizer v1.1" .
+  ?s ?p ?o .
+} WHERE {
+ {
+  SELECT ?date ?uri 
+  WHERE {
+   BIND(NOW() AS ?date)
+   BIND(IRI(UUID()) AS ?uri)
+   }
+  }
+ ?s ?p ?o .
+}

@@ -1,0 +1,21 @@
+{
+    "Buildings": [
+        {
+            "Classificacio_sol": "na",
+            "Clau_qualificacio_urbanistica": "nan", 
+            "Codi_postal": "", 
+            "Espai": "Casa del Mar d'El Port de la Selva", 
+            "Municipi": "El Port de la Selva",
+            "Num_via": "11",
+            "Provincia": "Girona", 
+            "Qualificacio_urbanistica": "nan", 
+            "Ref_Cadastral": "6875508EG1867N0001OO", 
+            "Sup_const_sobre_rasant": "213.61", 
+            "Sup_const_sota rasant": "0.0", 
+            "Sup_const_total": "213.61", 
+            "Sup_terreny": "0.0", 
+            "Via": "de l'Illa", 
+            "Num_Ens_Inventari": "03573"
+        }
+    ]
+}
