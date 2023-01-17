@@ -30,7 +30,7 @@ def check_arguments():
     query_files = []
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input', help="Input json file", required=True)
+    parser.add_argument('--input', help="Input file", required=True)
     parser.add_argument('--mapping', help="Input mapping file to convert")
     parser.add_argument('--sparql',  nargs='*', help="Sparql file to interrogate the ttl file")
     parser.add_argument('--output', help="Name of the wanted output file", default="output.ttl")
@@ -138,7 +138,10 @@ if __name__ == "__main__":
 
     elif convert_activated == False and sparql_activated :
         # Add Sparql Estage
-        harmonizer_sparql(input_file, query_files, output_file)
+        if input_file.split('.')[-1]== 'ttl':
+            harmonizer_sparql(input_file, query_files, output_file)
+        else :
+            print('Error : wrong format of the input file')
             
 
 
