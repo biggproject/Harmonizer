@@ -1,0 +1,12 @@
+{
+    "homeid":5,
+    "deviceid":"domx_ot_a8:03:2a:4c:24:1c",
+    "boiler_make":"BAXI",
+    "boiler_model":"DUOTEC COMPACT",
+    "boiler_kw":24,
+    "sqm":107,
+    "occupants":2,
+    "latitude":40.6039822,
+    "longitude":22.9502155,
+    "climatic_zone":"GRC_A"
+}

@@ -1,0 +1,264 @@
+@prefix ns1: <http://bigg-project.eu/> .
+
+<http://bigg-project.eu/instances/device_domx_ot_a8%3A03%3A2a%3A4c%3A24%3A1c> a ns1:Device ;
+    ns1:hasSensor <http://bigg-project.eu/instances/sensor_boiler>,
+        <http://bigg-project.eu/instances/sensor_domx> .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A02.085Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:02.085Z" ;
+    ns1:value "16.75" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A02.091Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:02.091Z" ;
+    ns1:value "16.75" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A03.280Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:03.280Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A05.468Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:05.468Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A07.653Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:07.653Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A09.841Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:09.841Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A12.130Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:12.130Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A12.133Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:12.133Z" ;
+    ns1:value "16.75" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A13.818Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:13.818Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A16.009Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:16.009Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A18.191Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:18.191Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A20.387Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:20.387Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A22.165Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:22.165Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A22.167Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:22.167Z" ;
+    ns1:value "16.75" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A23.498Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:23.498Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A25.653Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:25.653Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A27.844Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:27.844Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A30.029Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:30.029Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A32.348Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:32.348Z" ;
+    ns1:value "16.6875" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A32.361Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:32.361Z" ;
+    ns1:value "16.6875" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A33.539Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:33.539Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A35.730Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:35.730Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A37.918Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:37.918Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A40.103Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:40.103Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A42.415Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:42.415Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A42.418Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:42.418Z" ;
+    ns1:value "16.6875" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A43.594Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:43.594Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A45.785Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:45.785Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A47.970Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:47.970Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A50.164Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:50.164Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A52.470Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:52.470Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A52.473Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:52.473Z" ;
+    ns1:value "16.6875" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A53.649Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:53.649Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A55.859Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:55.859Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A58.040Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:05:58.040Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A00.341Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:00.341Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A02.577Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:02.577Z" ;
+    ns1:value "16.6875" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A02.753Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:02.753Z" ;
+    ns1:value "16.6875" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A03.753Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:03.753Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A05.908Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:05.908Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A08.104Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:08.104Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A10.289Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:10.289Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A12.590Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:12.590Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A12.593Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:12.593Z" ;
+    ns1:value "16.6875" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A14.275Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:14.275Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A16.463Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:16.463Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A18.669Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:18.669Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A20.860Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:20.860Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A22.646Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:22.646Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A22.649Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:22.649Z" ;
+    ns1:value "16.6875" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A23.894Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:23.894Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A26.105Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:26.105Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A28.260Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:28.260Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A30.451Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:30.451Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A32.764Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:32.764Z" ;
+    ns1:value "16.6875" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A32.776Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:32.776Z" ;
+    ns1:value "16.6875" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A33.961Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:33.961Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A36.170Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:36.170Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A38.358Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:38.358Z" .
+
+<http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A40.542Z> a ns1:Measurement ;
+    ns1:start "2022-12-06T11:06:40.542Z" .
+
+<http://bigg-project.eu/instances/sensor_boiler> a ns1:Sensor ;
+    ns1:hasMeasurement <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A02.085Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A03.280Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A05.468Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A07.653Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A09.841Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A12.130Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A13.818Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A16.009Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A18.191Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A20.387Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A22.165Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A23.498Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A25.653Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A27.844Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A30.029Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A32.348Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A33.539Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A35.730Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A37.918Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A40.103Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A42.415Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A43.594Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A45.785Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A47.970Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A50.164Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A52.470Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A53.649Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A55.859Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A58.040Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A00.341Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A02.577Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A03.753Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A05.908Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A08.104Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A10.289Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A12.590Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A14.275Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A16.463Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A18.669Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A20.860Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A22.646Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A23.894Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A26.105Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A28.260Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A30.451Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A32.764Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A33.961Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A36.170Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A38.358Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A40.542Z> .
+
+<http://bigg-project.eu/instances/sensor_domx> a ns1:Sensor ;
+    ns1:hasMeasurement <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A02.091Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A12.133Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A22.167Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A32.361Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A42.418Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A05%3A52.473Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A02.753Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A12.593Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A22.649Z>,
+        <http://bigg-project.eu/instances/measurement_2022-12-06T11%3A06%3A32.776Z> .
+

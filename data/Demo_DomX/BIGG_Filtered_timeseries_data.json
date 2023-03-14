@@ -1,0 +1,534 @@
+{
+    "domx": [
+        {
+            "time": "2022-12-06T11:05:02.091Z",
+            "t_set": 0,
+            "t_out": 16.75,
+            "bypass": 1,
+            "t_r": 22.5,
+            "t_r_set": 22.5,
+            "t_out_1": 16.75,
+            "otc_cur": 6,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:12.133Z",
+            "t_set": 0,
+            "t_out": 16.75,
+            "bypass": 1,
+            "t_r": 22.5,
+            "t_r_set": 22.5,
+            "t_out_1": 16.75,
+            "otc_cur": 6,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:22.167Z",
+            "t_set": 0,
+            "t_out": 16.75,
+            "bypass": 1,
+            "t_r": 22.5,
+            "t_r_set": 22.5,
+            "t_out_1": 16.75,
+            "otc_cur": 6,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:32.361Z",
+            "t_set": 0,
+            "t_out": 16.6875,
+            "bypass": 1,
+            "t_r": 22.5,
+            "t_r_set": 22.5,
+            "t_out_1": 16.6875,
+            "otc_cur": 6,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:42.418Z",
+            "t_set": 0,
+            "t_out": 16.6875,
+            "bypass": 1,
+            "t_r": 22.5,
+            "t_r_set": 22.5,
+            "t_out_1": 16.6875,
+            "otc_cur": 6,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:52.473Z",
+            "t_set": 0,
+            "t_out": 16.6875,
+            "bypass": 1,
+            "t_r": 22.5,
+            "t_r_set": 22.5,
+            "t_out_1": 16.6875,
+            "otc_cur": 6,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:02.753Z",
+            "t_set": 0,
+            "t_out": 16.6875,
+            "bypass": 1,
+            "t_r": 22.5,
+            "t_r_set": 22.5,
+            "t_out_1": 16.6875,
+            "otc_cur": 6,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:12.593Z",
+            "t_set": 0,
+            "t_out": 16.6875,
+            "bypass": 1,
+            "t_r": 22.5,
+            "t_r_set": 22.5,
+            "t_out_1": 16.6875,
+            "otc_cur": 6,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:22.649Z",
+            "t_set": 0,
+            "t_out": 16.6875,
+            "bypass": 1,
+            "t_r": 22.5,
+            "t_r_set": 22.5,
+            "t_out_1": 16.6875,
+            "otc_cur": 6,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:32.776Z",
+            "t_set": 0,
+            "t_out": 16.6875,
+            "bypass": 1,
+            "t_r": 22.5,
+            "t_r_set": 22.5,
+            "t_out_1": 16.6875,
+            "otc_cur": 6,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        }
+    ],
+    "boiler": [
+        {
+            "time": "2022-12-06T11:05:02.085Z",
+            "t_out": 16.75,
+            "blr_mod_lvl": 0,
+            "blr_t": 62.29688,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "t_out_1": 16.75,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:03.280Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:05.468Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:07.653Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:09.841Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:12.130Z",
+            "blr_mod_lvl": 0,
+            "blr_t": 61.79688,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:13.818Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:16.009Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0
+        },
+        {
+            "time": "2022-12-06T11:05:18.191Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:20.387Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:22.165Z",
+            "blr_mod_lvl": 0,
+            "blr_t": 61.09766,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:23.498Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:25.653Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:27.844Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:30.029Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:32.348Z",
+            "t_out": 16.6875,
+            "blr_mod_lvl": 0,
+            "blr_t": 60.29688,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "t_out_1": 16.6875,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:33.539Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:35.730Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:37.918Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:40.103Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:42.415Z",
+            "blr_mod_lvl": 0,
+            "blr_t": 59.89453,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:43.594Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:45.785Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:47.970Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:50.164Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:52.470Z",
+            "blr_mod_lvl": 0,
+            "blr_t": 59.59766,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:53.649Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:55.859Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:05:58.040Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:00.341Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:02.577Z",
+            "t_out": 16.6875,
+            "blr_mod_lvl": 0,
+            "blr_t": 59.39844,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "t_out_1": 16.6875,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:03.753Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:05.908Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:08.104Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:10.289Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:12.590Z",
+            "blr_mod_lvl": 0,
+            "blr_t": 59.09766,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:14.275Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:16.463Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:18.669Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:20.860Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:22.646Z",
+            "blr_mod_lvl": 0,
+            "blr_t": 58.89453,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:23.894Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:26.105Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:28.260Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:30.451Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:32.764Z",
+            "t_out": 16.6875,
+            "blr_mod_lvl": 0,
+            "blr_t": 58.79688,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "t_out_1": 16.6875,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:33.961Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:36.170Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:38.358Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        },
+        {
+            "time": "2022-12-06T11:06:40.542Z",
+            "blr_mod_lvl": 0,
+            "heat": 0,
+            "water": 0,
+            "flame": 0,
+            "deviceid": "domx_ot_a8:03:2a:4c:24:1c"
+        }
+    ],
+    "thermostat": []
+}

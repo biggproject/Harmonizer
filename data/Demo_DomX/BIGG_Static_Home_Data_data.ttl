@@ -1,0 +1,32 @@
+@prefix ns1: <http://bigg-project.eu/> .
+
+<http://bigg-project.eu/instances/building_5> a ns1:Building ;
+    ns1:buildingName "building_5" ;
+    ns1:hasCadastralInfo <http://bigg-project.eu/instances/cadastralInfo_building_5> ;
+    ns1:hasLocationInfo <http://bigg-project.eu/instances/locationInfo_building_5> ;
+    ns1:hasSpace <http://bigg-project.eu/instances/buildingSpace_5> .
+
+<http://bigg-project.eu/instances/buildingSpace_5> a ns1:BuildingSpace ;
+    ns1:buildingSpaceName "building_5" ;
+    ns1:hasOccupencyProfile <http://bigg-project.eu/instances/occupancyProfile_building_5> ;
+    ns1:isAssociatedWithElement <http://bigg-project.eu/instances/device_domx_ot_a8%3A03%3A2a%3A4c%3A24%3A1c> .
+
+<http://bigg-project.eu/instances/cadastralInfo_building_5> a ns1:CadastralInfo ;
+    ns1:landArea "107" .
+
+<http://bigg-project.eu/instances/deviceType_domx_ot_a8%3A03%3A2a%3A4c%3A24%3A1c> a ns1:DeviceType .
+
+<http://bigg-project.eu/instances/device_domx_ot_a8%3A03%3A2a%3A4c%3A24%3A1c> a ns1:Device ;
+    ns1:deviceIDFromOrganization "domx_ot_a8:03:2a:4c:24:1c" ;
+    ns1:deviceManufacturer "BAXI" ;
+    ns1:deviceModel "DUOTEC COMPACT" ;
+    ns1:hasDeviceType <http://bigg-project.eu/instances/deviceType_domx_ot_a8%3A03%3A2a%3A4c%3A24%3A1c> .
+
+<http://bigg-project.eu/instances/locationInfo_building_5> a ns1:LocationInfo ;
+    ns1:adressLatitude "40.6039822" ;
+    ns1:adressLongitude "22.9502155" ;
+    ns1:hasAddressClimateZone "GRC_A" .
+
+<http://bigg-project.eu/instances/occupancyProfile_building_5> a ns1:OccupancyProfile ;
+    ns1:occupancyNumberOfOccupants "2" .
+

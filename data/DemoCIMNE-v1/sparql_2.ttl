@@ -1,0 +1,18 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://bigg-project.eu/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://bigg-project.eu/instances/building_03573> a ns1:Building ;
+    ns1:buildingName "http://bigg-project.eu/instances/Casa del Mar d'El Port de la Selva" ;
+    ns1:hasCadastralInfo <http://bigg-project.eu/instances/cadastralInfo_6875508EG1867N0001OO> ;
+    ns1:hasLocationInfo <http://bigg-project.eu/instances/locationInfo_03573> ;
+    ns1:hasSpace <http://bigg-project.eu/instances/buildingSpace_03573> .
+
+<urn:uuid:40914f6e-1c2c-45e8-b045-53169402fbeb> a <http://bigg-project.eu/ontology#hamonizedData> ;
+    dcterms:created "2023-03-14T15:20:59.559138+00:00"^^xsd:dateTime ;
+    dcterms:source "Hamonizer v1.1" .
+
+<urn:uuid:f8462952-fa4d-4307-a176-c99b044ad63d> a <http://bigg-project.eu/ontology#hamonizedData> ;
+    dcterms:created "2023-03-14T15:20:59.543347+00:00"^^xsd:dateTime ;
+    dcterms:source "Hamonizer v1.0" .
+
