@@ -12,6 +12,7 @@ import pathlib
 import os
 import argparse
 from rdflib import Graph
+import re
 
 
 ######################################
@@ -66,12 +67,38 @@ def check_arguments():
 #--end: Check Arguments ------------------------------------------------------------------------------------------------------------------
 #========================================================================================================================================= 
 
+#========================================================================================================================================= 
+#--start: Replace Json source into mapping file ------------------------------------------------------------------------------------------
+#========================================================================================================================================= 
+# Find all sources file name into the rml file to replace it with the corresponding Input file
+def correct_RML_inputfile(mapping_file, input_file, mapping_updated_file):
+
+    reg = re.compile(r'rml:source\s+\"([^"]+\.(json|csv))\"\s*;')
+    with open(mapping_file) as rml:
+        data = rml.readlines()
+
+    data_copy = []
+
+    for line in data:
+        if reg.search(line):
+            split_line = line.split("\"")
+            split_line[1] = '"'+input_file.replace('/','\\') +'"'
+            line = ''.join(split_line)
+        data_copy.append(line)
+
+    with open(mapping_updated_file,'w') as f:
+        for line in data_copy:
+            f.write(line)
+#========================================================================================================================================= 
+#--end: Replace Json source into mapping file --------------------------------------------------------------------------------------------
+#========================================================================================================================================= 
+
 
 #========================================================================================================================================= 
 #--start: Convert JSON to RDF-------------------------------------------------------------------------------------------------------------
 #========================================================================================================================================= 
 # Convert a JSON file into a RDF or JSONLD file thanks to a mapping file (RML)
-def harmonizer(mapping_file, output_file):
+def harmonizer(input_file, mapping_file, output_file):
     # HARMONIZE DATA 
     output_format = output_file.split('.')[-1]
     if output_format.lower() == 'jsonld':
@@ -124,15 +151,20 @@ if __name__ == "__main__":
 
     # Arguments
     input_file, mapping_file, output_file, query_files, convert_activated, sparql_activated = check_arguments()
+    mapping_updated_file = mapping_file.split('.rml')[0] + "_updated.rml"
+
+    correct_RML_inputfile(mapping_file, input_file, mapping_updated_file)
+
+    
 
     if convert_activated and sparql_activated == False: 
         print('Harmonizer without queries')
         # Convert data to RDF
-        harmonizer(mapping_file, output_file)
+        harmonizer(input_file, mapping_updated_file, output_file)
     
     elif convert_activated and sparql_activated :
         # Convert data to RDF
-        harmonizer(mapping_file, 'tmp_output.ttl')
+        harmonizer(input_file, mapping_updated_file, 'tmp_output.ttl')
         harmonizer_sparql('tmp_output.ttl', query_files, output_file)
         os.system('del tmp_output.ttl')
 
