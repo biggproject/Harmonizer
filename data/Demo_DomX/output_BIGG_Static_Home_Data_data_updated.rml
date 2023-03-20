@@ -329,7 +329,7 @@ map:s_006 rdf:type rr:SubjectMap ;
 
 map:source_000 rml:iterator "$" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "__SOURCE__" ;
+	rml:source "data/Demo_DomX/BIGG_Static_Home_Data_data.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "data1" .
 

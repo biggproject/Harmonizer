@@ -221,13 +221,13 @@ map:s_005 rdf:type rr:SubjectMap ;
 
 map:source_000 rml:iterator "$.domx[*]" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "data\Demo_DomX\BIGG_Filtered_timeseries_data.json" ;
+	rml:source "__SOURCE__" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "data1" .
 
 map:source_001 rml:iterator "$.boiler[*]" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "data\Demo_DomX\BIGG_Filtered_timeseries_data.json" ;
+	rml:source "__SOURCE__" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "data2" .
 

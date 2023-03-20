@@ -67,28 +67,21 @@ def check_arguments():
 #--end: Check Arguments ------------------------------------------------------------------------------------------------------------------
 #========================================================================================================================================= 
 
+
 #========================================================================================================================================= 
 #--start: Replace Json source into mapping file ------------------------------------------------------------------------------------------
 #========================================================================================================================================= 
 # Find all sources file name into the rml file to replace it with the corresponding Input file
 def correct_RML_inputfile(mapping_file, input_file, mapping_updated_file):
 
-    reg = re.compile(r'rml:source\s+\"([^"]+\.(json|csv))\"\s*;')
+    #reg = re.compile(r'rml:source\s+\"([^"]+\.(json|csv))\"\s*;')
     with open(mapping_file) as rml:
-        data = rml.readlines()
+        data = rml.read()
 
-    data_copy = []
-
-    for line in data:
-        if reg.search(line):
-            split_line = line.split("\"")
-            split_line[1] = '"'+input_file.replace('/','\\') +'"'
-            line = ''.join(split_line)
-        data_copy.append(line)
+    data = data.replace('__SOURCE__',input_file)
 
     with open(mapping_updated_file,'w') as f:
-        for line in data_copy:
-            f.write(line)
+        f.write(data)
 #========================================================================================================================================= 
 #--end: Replace Json source into mapping file --------------------------------------------------------------------------------------------
 #========================================================================================================================================= 
@@ -155,7 +148,6 @@ if __name__ == "__main__":
 
     correct_RML_inputfile(mapping_file, input_file, mapping_updated_file)
 
-    
 
     if convert_activated and sparql_activated == False: 
         print('Harmonizer without queries')
@@ -175,11 +167,3 @@ if __name__ == "__main__":
         else :
             print('Error : wrong format of the input file')
             
-
-
-            
-                
-                
-
-
-
