@@ -1,0 +1,8 @@
+prefix bigg: <http://bigg-project.eu/>
+
+SELECT ?device ?space
+WHERE{
+    ?device a bigg:Device.
+    
+    FILTER NOT EXISTS {?space bigg:containsElement ?device}
+}
