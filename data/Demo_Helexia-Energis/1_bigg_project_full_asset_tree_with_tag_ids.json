@@ -1,0 +1,1369 @@
+[
+  {
+    "parentId": null ,
+    "assetId": 57 ,
+    "name": "BIGG" ,
+    "code": "BIGG" ,
+    "description": "" ,
+    "type": "COMPANY" ,
+    "categoryCode": "COMPANY" ,
+    "hasChildren": false ,
+    "contents": [
+      {
+        "parentId": 57 ,
+        "assetId": 158 ,
+        "name": "Cordia" ,
+        "code": "Cordia" ,
+        "description": null ,
+        "type": "GROUP" ,
+        "categoryCode": "GROUP" ,
+        "hasChildren": false ,
+        "contents": [
+          {
+            "parentId": 158 ,
+            "assetId": 100 ,
+            "name": "CORDIA - CORDIA HQ" ,
+            "code": "Cordia-HQ" ,
+            "description": "" ,
+            "type": "SITE" ,
+            "categoryCode": "OFFICE" ,
+            "hasChildren": false ,
+            "contents": [
+              {
+                "parentId": 100 ,
+                "assetId": 119 ,
+                "name": "Electricity Sub-meters" ,
+                "code": "Cordia-HQ-Electricity-Meters" ,
+                "description": null ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "METER_GROUP" ,
+                "hasChildren": false ,
+                "contents": [
+                  {
+                    "parentId": 119 ,
+                    "assetId": 102 ,
+                    "name": "HVAC & Elevator Meter" ,
+                    "code": "Cordia-HQ-HVAC-Elevator-Meter" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SUB_METER" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 119 ,
+                    "assetId": 103 ,
+                    "name": "UPS Meter - Offices Consumption" ,
+                    "code": "Cordia-HQ-UPS-Meter" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SUB_METER" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  }
+                ]
+              } ,
+              {
+                "parentId": 100 ,
+                "assetId": 104 ,
+                "name": "GAS Boiler" ,
+                "code": "Cordia-HQ-Gas-Boiler" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "BOILER_GAS" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 100 ,
+                "assetId": 134 ,
+                "name": "HVAC" ,
+                "code": "CORDIA-HQ-HVAC" ,
+                "description": null ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ENTITY_GROUP" ,
+                "hasChildren": false ,
+                "contents": [
+                  {
+                    "parentId": 134 ,
+                    "assetId": 152 ,
+                    "name": "Chiller" ,
+                    "code": "CordiaHQ-Chiller" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "CHILLER_AIRCOOLED" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 134 ,
+                    "assetId": 149 ,
+                    "name": "Fan Coils" ,
+                    "code": "FanCoils" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "ENTITY_GROUP" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 149 ,
+                        "assetId": 135 ,
+                        "name": "FCU-1st-1-NK" ,
+                        "code": "FCU-1st-1-NK" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "FANS" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 149 ,
+                        "assetId": 139 ,
+                        "name": "FCU-1st-2-OA" ,
+                        "code": "FCU-1st-2-OA" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "FANS" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 149 ,
+                        "assetId": 140 ,
+                        "name": "FCU-1st-3-OA" ,
+                        "code": "FCU-1st-3-OA" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "FANS" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 149 ,
+                        "assetId": 141 ,
+                        "name": "FCU-1st-4-OA" ,
+                        "code": "FCU-1st-4-OA" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "FANS" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 149 ,
+                        "assetId": 142 ,
+                        "name": "FCU-2nd-1-IT" ,
+                        "code": "FCU-2nd-1-IT" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "FANS" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 149 ,
+                        "assetId": 143 ,
+                        "name": "FCU-2nd-2-HR" ,
+                        "code": "FCU-2nd-2-HR" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "FANS" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 149 ,
+                        "assetId": 144 ,
+                        "name": "FCU-2nd-3-HRM" ,
+                        "code": "FCU-2nd-3-HRM" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "FANS" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 149 ,
+                        "assetId": 145 ,
+                        "name": "FCU-2nd-4-OA" ,
+                        "code": "FCU-2nd-4-OA" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "FANS" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 149 ,
+                        "assetId": 146 ,
+                        "name": "FCU-3rd-1-CEO" ,
+                        "code": "FCU-3rd-1-CEO" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "FANS" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 149 ,
+                        "assetId": 147 ,
+                        "name": "FCU-3rd-2-Com" ,
+                        "code": "FCU-3rd-2-Com" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "FANS" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 149 ,
+                        "assetId": 148 ,
+                        "name": "FCU-3rd-3-Sales" ,
+                        "code": "FCU-3rd-3-Sales" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "FANS" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      }
+                    ]
+                  }
+                ]
+              } ,
+              {
+                "parentId": 100 ,
+                "assetId": 101 ,
+                "name": "Main Switch Meter" ,
+                "code": "Cordia-HQ-Main-Switch-Meter" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "METER" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 100 ,
+                "assetId": 105 ,
+                "name": "Sensors" ,
+                "code": "Cordia-HQ-Sensors" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ENTITY_GROUP" ,
+                "hasChildren": false ,
+                "contents": [
+                  {
+                    "parentId": 105 ,
+                    "assetId": 108 ,
+                    "name": "1st - 1 - NK Office - First Floor - Sensor Type 1" ,
+                    "code": "Cordia-HQ-1st1-NK-1st-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 109 ,
+                    "name": "1st - 2 - Office Area - 1st Floor - Sensor Type 2" ,
+                    "code": "Cordia-HQ-1st2-OA-1st-Sens-Type-2" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 110 ,
+                    "name": "1st - 3 - Office Area - 1st Floor - Sensor Type 1" ,
+                    "code": "Cordia-HQ-1st3-OA-1st-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 111 ,
+                    "name": "2nd - 1 - IT Office - 2nd Floor - Sensor Type 1" ,
+                    "code": "Cordia-HQ-2nd1-IT-2nd-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 112 ,
+                    "name": "2nd - 2 - HR Office - 2nd Floor - Sensor Type 1" ,
+                    "code": "Cordia-HQ-2nd2-HR-2nd-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 113 ,
+                    "name": "2nd - 3 - HR Management Office - 2nd Floor - Sensor Type 1" ,
+                    "code": "Cordia-HQ-2nd3-HRM-2nd-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 114 ,
+                    "name": "2nd - 4 - Office Area - 2nd Floor - Sensor Type 1" ,
+                    "code": "Cordia-HQ-2nd4-OA-2nd-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 115 ,
+                    "name": "3rd - 1 - CEO Office - 3rd Floor - Sensor Type 1" ,
+                    "code": "Cordia-HQ-3rd1-CEO-3rd-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 116 ,
+                    "name": "3rd - 2 - Commercial Office - 3rd Floor - Sensor Type 1" ,
+                    "code": "Cordia-HQ-3rd2-Commercial-3rd-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 117 ,
+                    "name": "3rd - 3 - Sales Office - 3rd Floor - Sensor Type 1" ,
+                    "code": "Cordia-HQ-3rd3-Sales-3rd-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 118 ,
+                    "name": "3rd - 4 - OA - 3rd Floor - Sensor Type 1" ,
+                    "code": "Cordia-HQ-3rd4-OA-3rd-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 106 ,
+                    "name": "GF - 1 - Office Area - Ground Floor - Sensor Type 1" ,
+                    "code": "Cordia-HQ-GF1-OA-GF-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 105 ,
+                    "assetId": 107 ,
+                    "name": "GF - 2 - Office Area - Ground Floor - Sensor Type 2" ,
+                    "code": "Cordia-HQ-GF2-OA-GF-Sens-Type-2" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  }
+                ]
+              }
+            ]
+          } ,
+          {
+            "parentId": 158 ,
+            "assetId": 120 ,
+            "name": "CPE" ,
+            "code": "CPEStandard001" ,
+            "description": null ,
+            "type": "SITE" ,
+            "categoryCode": "BUILDING" ,
+            "hasChildren": false ,
+            "contents": []
+          } ,
+          {
+            "parentId": 158 ,
+            "assetId": 188 ,
+            "name": "Industrial and Office Building ESCO PV 100kW" ,
+            "code": "IndustrialandOfficeBuildingESCOPV100kW" ,
+            "description": null ,
+            "type": "SITE" ,
+            "categoryCode": "INDUSTRIAL" ,
+            "hasChildren": false ,
+            "contents": [
+              {
+                "parentId": 188 ,
+                "assetId": 189 ,
+                "name": "M&V PV" ,
+                "code": "IndustrialOfficeBuilding-MandVPV" ,
+                "description": null ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "GENERIC_SITE_ENTITY" ,
+                "hasChildren": false ,
+                "contents": []
+              }
+            ]
+          } ,
+          {
+            "parentId": 158 ,
+            "assetId": 58 ,
+            "name": "Interamerican" ,
+            "code": "Interamerican" ,
+            "description": "" ,
+            "type": "SITE" ,
+            "categoryCode": "OFFICE" ,
+            "hasChildren": false ,
+            "contents": [
+              {
+                "parentId": 58 ,
+                "assetId": 61 ,
+                "name": "HVAC" ,
+                "code": "Interamerican-HVAC" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ENTITY_GROUP" ,
+                "hasChildren": false ,
+                "contents": [
+                  {
+                    "parentId": 61 ,
+                    "assetId": 155 ,
+                    "name": "AHU 1" ,
+                    "code": "Interamerican-AHU1" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "AHU" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 61 ,
+                    "assetId": 156 ,
+                    "name": "AHU 2" ,
+                    "code": "Interamerican-AHU2" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "AHU" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 61 ,
+                    "assetId": 84 ,
+                    "name": "Boiler Room" ,
+                    "code": "Interamerican-Boiler-Room" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "BOILER_GAS" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 84 ,
+                        "assetId": 85 ,
+                        "name": "Boiler Room Meter" ,
+                        "code": "Interamerican-Boiler-Room-Meter" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SUB_METER" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 84 ,
+                        "assetId": 98 ,
+                        "name": "Boiler1" ,
+                        "code": "Interamerican-Boiler1" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "BOILER_ELECTRIC" ,
+                        "hasChildren": false ,
+                        "contents": [
+                          {
+                            "parentId": 98 ,
+                            "assetId": 196 ,
+                            "name": "Boiler1 Meter" ,
+                            "code": "Interamerican-Boiler1Meter" ,
+                            "description": null ,
+                            "type": "SITE_ENTITY" ,
+                            "categoryCode": "METER" ,
+                            "hasChildren": false ,
+                            "contents": []
+                          }
+                        ]
+                      } ,
+                      {
+                        "parentId": 84 ,
+                        "assetId": 99 ,
+                        "name": "Boiler2" ,
+                        "code": "Interamerican-Boiler2" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "BOILER_ELECTRIC" ,
+                        "hasChildren": false ,
+                        "contents": [
+                          {
+                            "parentId": 99 ,
+                            "assetId": 197 ,
+                            "name": "Boiler2 Meter" ,
+                            "code": "Interamerican-Boiler2Meter" ,
+                            "description": null ,
+                            "type": "SITE_ENTITY" ,
+                            "categoryCode": "METER" ,
+                            "hasChildren": false ,
+                            "contents": []
+                          }
+                        ]
+                      }
+                    ]
+                  } ,
+                  {
+                    "parentId": 61 ,
+                    "assetId": 62 ,
+                    "name": "Chiller 1" ,
+                    "code": "Interamerican-Chiller1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "CHILLER_AIRCOOLED" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 62 ,
+                        "assetId": 64 ,
+                        "name": "Chiller 1 Meter" ,
+                        "code": "Interamerican-Chiller1-Meter" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SUB_METER" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      }
+                    ]
+                  } ,
+                  {
+                    "parentId": 61 ,
+                    "assetId": 63 ,
+                    "name": "Chiller 2" ,
+                    "code": "Interamerican-Chiller2" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "CHILLER_AIRCOOLED" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 63 ,
+                        "assetId": 65 ,
+                        "name": "Chiller 2 Meter" ,
+                        "code": "Interamerican-Chiller2-Meter" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SUB_METER" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      }
+                    ]
+                  } ,
+                  {
+                    "parentId": 61 ,
+                    "assetId": 82 ,
+                    "name": "Exhaust Fans" ,
+                    "code": "Interamerican-Exhaust-Fans" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "FANS" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 82 ,
+                        "assetId": 83 ,
+                        "name": "Exhaust Fans Meter" ,
+                        "code": "Interamerican-Exhaust-Fans-Meter" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SUB_METER" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      }
+                    ]
+                  }
+                ]
+              } ,
+              {
+                "parentId": 58 ,
+                "assetId": 194 ,
+                "name": "M&V BC5 Winter Scenario" ,
+                "code": "Interamerican-MandVBC5WinterScenario" ,
+                "description": null ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "GENERIC_SITE_ENTITY" ,
+                "hasChildren": false ,
+                "contents": [
+                  {
+                    "parentId": 194 ,
+                    "assetId": 195 ,
+                    "name": "M&V BC5 Winter Scenario Elec" ,
+                    "code": "MVBC5WinterScenarioElec" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "GENERIC_SITE_ENTITY" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  }
+                ]
+              } ,
+              {
+                "parentId": 58 ,
+                "assetId": 185 ,
+                "name": "M&V Electricity & Oil" ,
+                "code": "Interamerican-MandVElectricityOil" ,
+                "description": null ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "GENERIC_SITE_ENTITY" ,
+                "hasChildren": false ,
+                "tagIds": "Total Scope",
+                "EPCContractDateStart": "2018/08/01" ,
+                "EPCContractDateEnd": "2028/08/01" ,
+                "contents": [
+                  {
+                    "parentId": 185 ,
+                    "assetId": 186 ,
+                    "name": "M&V Electricity" ,
+                    "code": "Interamerican-MandVElectricity" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "GENERIC_SITE_ENTITY" ,
+                    "hasChildren": false ,
+                    "tagIds": "Sub Scope",
+                    "utility": "Electricity" ,
+                    "savingsTargetPercentage": 12 ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 185 ,
+                    "assetId": 187 ,
+                    "name": "M&V Oil" ,
+                    "code": "Interamerican-MandVOil" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "GENERIC_SITE_ENTITY" ,
+                    "hasChildren": false ,
+                    "tagIds": "Sub Scope",
+                    "utility": "Oil" ,
+                    "savingsTargetPercentage": 12 ,
+                    "contents": []
+                  }
+                ]
+              } ,
+              {
+                "parentId": 58 ,
+                "assetId": 59 ,
+                "name": "Main Switch Meter 1" ,
+                "code": "Interamerican-Main-Switch-Meter-1" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "METER" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 58 ,
+                "assetId": 60 ,
+                "name": "Main Switch Meter 2" ,
+                "code": "Interamerican-Main-Switch-Meter-2" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "METER" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 58 ,
+                "assetId": 96 ,
+                "name": "Not Operational" ,
+                "code": "NotOperational" ,
+                "description": null ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ENTITY_GROUP" ,
+                "hasChildren": false ,
+                "contents": [
+                  {
+                    "parentId": 96 ,
+                    "assetId": 68 ,
+                    "name": "Amphitheater - Sensor Type 1" ,
+                    "code": "Interamerican-Ampitheater-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 96 ,
+                    "assetId": 80 ,
+                    "name": "HR Office - Ground Floor - Sensor Type 1" ,
+                    "code": "Interamerican-HR-GF-Sens-Type-1" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "SENSOR" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  }
+                ]
+              } ,
+              {
+                "parentId": 58 ,
+                "assetId": 66 ,
+                "name": "Other Equipment" ,
+                "code": "Interamerican-Other-Equipment" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ENTITY_GROUP" ,
+                "hasChildren": false ,
+                "contents": [
+                  {
+                    "parentId": 66 ,
+                    "assetId": 86 ,
+                    "name": "External lighting" ,
+                    "code": "Interamerican-External-lighting" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "LIGHTING_EXTERNAL" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 86 ,
+                        "assetId": 87 ,
+                        "name": "External lighting Meter" ,
+                        "code": "Interamerican-External-lighting-Meter" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SUB_METER" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      }
+                    ]
+                  } ,
+                  {
+                    "parentId": 66 ,
+                    "assetId": 88 ,
+                    "name": "UPS 1- Computer Room and offices" ,
+                    "code": "Interamerican-UPS1-CR-Offices" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "EQUIPMENT_OFFICE" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 88 ,
+                        "assetId": 90 ,
+                        "name": "UPS 1- Computer Room and offices Meter" ,
+                        "code": "Interamerican-UPS1-CR-Offices-Meter" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SUB_METER" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      }
+                    ]
+                  } ,
+                  {
+                    "parentId": 66 ,
+                    "assetId": 89 ,
+                    "name": "UPS 2- Computer Room and offices" ,
+                    "code": "Interamerican-UPS2-CR-Offices" ,
+                    "description": "" ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "EQUIPMENT_OFFICE" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 89 ,
+                        "assetId": 91 ,
+                        "name": "UPS 2- Computer Room and offices Meter" ,
+                        "code": "Interamerican-UPS2-CR-Offices-Meter" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SUB_METER" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      }
+                    ]
+                  }
+                ]
+              } ,
+              {
+                "parentId": 58 ,
+                "assetId": 67 ,
+                "name": "Sensors" ,
+                "code": "Interamerican-Sensors" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ENTITY_GROUP" ,
+                "hasChildren": false ,
+                "contents": [
+                  {
+                    "parentId": 67 ,
+                    "assetId": 92 ,
+                    "name": "East Side" ,
+                    "code": "Interamerican-East-Side" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "ENTITY_GROUP" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 92 ,
+                        "assetId": 70 ,
+                        "name": "Office Area 09 - 2nd Floor - Zone 2 - Sensor Type 1" ,
+                        "code": "Interamerican-OA-09-2nd-Z2-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 92 ,
+                        "assetId": 81 ,
+                        "name": "Office Area 09 - 3rd Floor - Zone 1 - Sensor Type 1" ,
+                        "code": "Interamerican-OA-09-3rd-Z1-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 92 ,
+                        "assetId": 77 ,
+                        "name": "Office Area 09 - 5th Floor - Office Space - Sensor Type 1" ,
+                        "code": "Interamerican-OA-09-5th-OS-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 92 ,
+                        "assetId": 74 ,
+                        "name": "Office Area 12 - 4th Floor - Office Space - Sensor Type 1" ,
+                        "code": "Interamerican-OA-12-4th-OS-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 92 ,
+                        "assetId": 78 ,
+                        "name": "Office Area 12 - 5th Floor - Office Space - Sensor Type 1" ,
+                        "code": "Interamerican-OA-12-5th-OS-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      }
+                    ]
+                  } ,
+                  {
+                    "parentId": 67 ,
+                    "assetId": 93 ,
+                    "name": "West Side" ,
+                    "code": "Interamerican-West-Side" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "ENTITY_GROUP" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 93 ,
+                        "assetId": 69 ,
+                        "name": "Meeting Rooms - Sensor Type 1" ,
+                        "code": "Interamerican-MeetingRoom-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 93 ,
+                        "assetId": 79 ,
+                        "name": "Office Area 01 - 6th Floor - Management Floor - Sensor Type 1" ,
+                        "code": "Interamerican-OA-01-6th-MF-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 93 ,
+                        "assetId": 72 ,
+                        "name": "Office Area 02 - 3rd Floor - Zone 2 - Sensor Type 1" ,
+                        "code": "Interamerican-OA-02-3rd-Z2-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 93 ,
+                        "assetId": 75 ,
+                        "name": "Office Area 02 - 5th Floor - Office Space - Sensor Type 1" ,
+                        "code": "Interamerican-OA-02-5th-OS-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 93 ,
+                        "assetId": 71 ,
+                        "name": "Office Area 05 - 2nd Floor - Office Space - Sensor Type 1" ,
+                        "code": "Interamerican-OA-05-2nd-OS-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 93 ,
+                        "assetId": 73 ,
+                        "name": "Office Area 05 - 4th Floor - Office Space - Sensor Type 1" ,
+                        "code": "Interamerican-OA-05-4th-OS-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 93 ,
+                        "assetId": 76 ,
+                        "name": "Office Area 05 - 5th Floor - Office Space - Sensor Type 1" ,
+                        "code": "Interamerican-OA-05-5th-OS-Sens-Type-1" ,
+                        "description": "" ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "SENSOR" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          } ,
+          {
+            "parentId": 158 ,
+            "assetId": 94 ,
+            "name": "KGE" ,
+            "code": "KGE" ,
+            "description": null ,
+            "type": "SITE" ,
+            "categoryCode": "OFFICE" ,
+            "hasChildren": false ,
+            "contents": [
+              {
+                "parentId": 94 ,
+                "assetId": 97 ,
+                "name": "EPC_Elements" ,
+                "code": "EPCElements" ,
+                "description": "Implementation of an EPC for KGE building" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "METER_GROUP" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 94 ,
+                "assetId": 95 ,
+                "name": "Main meter DEDDIE" ,
+                "code": "KGE-Main-Meter-DEDDIE" ,
+                "description": null ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "METER" ,
+                "hasChildren": false ,
+                "contents": []
+              }
+            ]
+          } ,
+          {
+            "parentId": 158 ,
+            "assetId": 127 ,
+            "name": "Solar modeling Site 1 - Vendenheim" ,
+            "code": "001126" ,
+            "description": null ,
+            "type": "SITE" ,
+            "categoryCode": "BUILDING" ,
+            "hasChildren": false ,
+            "contents": []
+          } ,
+          {
+            "parentId": 158 ,
+            "assetId": 131 ,
+            "name": "Solar modeling Site 2 - Beziers" ,
+            "code": "OX09" ,
+            "description": null ,
+            "type": "SITE" ,
+            "categoryCode": "BUILDING" ,
+            "hasChildren": false ,
+            "contents": []
+          } ,
+          {
+            "parentId": 158 ,
+            "assetId": 129 ,
+            "name": "Solar modeling Site 3 - Sorgues" ,
+            "code": "IM09AC" ,
+            "description": null ,
+            "type": "SITE" ,
+            "categoryCode": "BUILDING" ,
+            "hasChildren": false ,
+            "contents": []
+          } ,
+          {
+            "parentId": 158 ,
+            "assetId": 130 ,
+            "name": "Solar modeling Site 4 - La Garde" ,
+            "code": "CTFC019" ,
+            "description": null ,
+            "type": "SITE" ,
+            "categoryCode": "BUILDING" ,
+            "hasChildren": false ,
+            "contents": []
+          } ,
+          {
+            "parentId": 158 ,
+            "assetId": 128 ,
+            "name": "Solar modeling Site 5 - Alairac" ,
+            "code": "AGS11" ,
+            "description": null ,
+            "type": "SITE" ,
+            "categoryCode": "BUILDING" ,
+            "hasChildren": false ,
+            "contents": []
+          }
+        ]
+      } ,
+      {
+        "parentId": 57 ,
+        "assetId": 190 ,
+        "name": "CSTB" ,
+        "code": "CSTB" ,
+        "description": null ,
+        "type": "GROUP" ,
+        "categoryCode": "GROUP" ,
+        "hasChildren": false ,
+        "contents": [
+          {
+            "parentId": 190 ,
+            "assetId": 191 ,
+            "name": "Laboratoire Guillaume" ,
+            "code": "LaboratoireGuillaume" ,
+            "description": null ,
+            "type": "SITE" ,
+            "categoryCode": "GENERIC_SITE" ,
+            "hasChildren": false ,
+            "contents": [
+              {
+                "parentId": 191 ,
+                "assetId": 192 ,
+                "name": "Meter Elec Guillaume 1" ,
+                "code": "MeterElecGuillaume1" ,
+                "description": null ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "METER" ,
+                "hasChildren": false ,
+                "contents": []
+              }
+            ]
+          }
+        ]
+      } ,
+      {
+        "parentId": 57 ,
+        "assetId": 157 ,
+        "name": "Customer" ,
+        "code": "Helexia" ,
+        "description": null ,
+        "type": "GROUP" ,
+        "categoryCode": "GROUP" ,
+        "hasChildren": false ,
+        "contents": [
+          {
+            "parentId": 157 ,
+            "assetId": 159 ,
+            "name": "Industrial Site - EPC" ,
+            "code": "EINEA" ,
+            "description": null ,
+            "type": "SITE" ,
+            "categoryCode": "INDUSTRIAL" ,
+            "hasChildren": false ,
+            "contents": [
+              {
+                "parentId": 159 ,
+                "assetId": 162 ,
+                "name": "Atelier" ,
+                "code": "EINEA-Atelier" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ZONE" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 159 ,
+                "assetId": 163 ,
+                "name": "Bureaux administratifs" ,
+                "code": "EINEA-Bureaux-administratifs" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ZONE" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 159 ,
+                "assetId": 164 ,
+                "name": "Bureaux techniques" ,
+                "code": "EINEA-Bureaux-techniques" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ZONE" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 159 ,
+                "assetId": 166 ,
+                "name": "Cantine & Salles de réunion" ,
+                "code": "EINEA-Cantine-Salles-de-reunion" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ZONE" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 159 ,
+                "assetId": 160 ,
+                "name": "M&V Electricity + Gas" ,
+                "code": "EINEA-MandV" ,
+                "description": "Einea" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ENTITY_GROUP" ,
+                "hasChildren": false ,
+                "contents": [
+                  {
+                    "parentId": 160 ,
+                    "assetId": 178 ,
+                    "name": "M&V Electricity" ,
+                    "code": "EINEA-MandV-Electricity" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "GENERIC_SITE_ENTITY" ,
+                    "hasChildren": false ,
+                    "contents": []
+                  } ,
+                  {
+                    "parentId": 160 ,
+                    "assetId": 177 ,
+                    "name": "M&V Gas" ,
+                    "code": "EINEA-MandV-Gas" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "GENERIC_SITE_ENTITY" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 177 ,
+                        "assetId": 182 ,
+                        "name": "M&V Influence Factor HDD" ,
+                        "code": "EINEA-MandV-InfluenceFactorHDD" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "GENERIC_SITE_ENTITY" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      }
+                    ]
+                  }
+                ]
+              } ,
+              {
+                "parentId": 159 ,
+                "assetId": 165 ,
+                "name": "Magasin" ,
+                "code": "EINEA-Magasin" ,
+                "description": "" ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "ZONE" ,
+                "hasChildren": false ,
+                "contents": []
+              }
+            ]
+          } ,
+          {
+            "parentId": 157 ,
+            "assetId": 184 ,
+            "name": "Retailer" ,
+            "code": "Retailer" ,
+            "description": null ,
+            "type": "GROUP" ,
+            "categoryCode": "GROUP" ,
+            "hasChildren": false ,
+            "contents": [
+              {
+                "parentId": 184 ,
+                "assetId": 168 ,
+                "name": "MARNE LA VALLÉE" ,
+                "code": "ARFMARNHYPE" ,
+                "description": null ,
+                "type": "SITE" ,
+                "categoryCode": "RETAIL" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 184 ,
+                "assetId": 169 ,
+                "name": "MONTIVILLIERS" ,
+                "code": "MONTIVILLIERSHyper" ,
+                "description": null ,
+                "type": "SITE" ,
+                "categoryCode": "RETAIL" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 184 ,
+                "assetId": 170 ,
+                "name": "TOULOUSE" ,
+                "code": "TOULOUSEHyper" ,
+                "description": null ,
+                "type": "SITE" ,
+                "categoryCode": "RETAIL" ,
+                "hasChildren": false ,
+                "contents": []
+              } ,
+              {
+                "parentId": 184 ,
+                "assetId": 171 ,
+                "name": "VILLARS" ,
+                "code": "ARFVLARHYPE" ,
+                "description": null ,
+                "type": "SITE" ,
+                "categoryCode": "RETAIL" ,
+                "hasChildren": false ,
+                "contents": []
+              }
+            ]
+          }
+        ]
+      } ,
+      {
+        "parentId": 57 ,
+        "assetId": 172 ,
+        "name": "Library" ,
+        "code": "Library" ,
+        "description": null ,
+        "type": "GROUP" ,
+        "categoryCode": "GROUP" ,
+        "hasChildren": false ,
+        "contents": [
+          {
+            "parentId": 172 ,
+            "assetId": 173 ,
+            "name": "Library M&V Site" ,
+            "code": "LibraryMVSite" ,
+            "description": null ,
+            "type": "SITE" ,
+            "categoryCode": "GENERIC_SITE" ,
+            "hasChildren": false ,
+            "contents": [
+              {
+                "parentId": 173 ,
+                "assetId": 179 ,
+                "name": "Library M&V <Total Scope>" ,
+                "code": "LibraryMVTotalScope" ,
+                "description": null ,
+                "type": "SITE_ENTITY" ,
+                "categoryCode": "GENERIC_SITE_ENTITY" ,
+                "hasChildren": false ,
+                "contents": [
+                  {
+                    "parentId": 179 ,
+                    "assetId": 180 ,
+                    "name": "Library M&V <Sub Scope>" ,
+                    "code": "LibraryMVSubScope" ,
+                    "description": null ,
+                    "type": "SITE_ENTITY" ,
+                    "categoryCode": "GENERIC_SITE_ENTITY" ,
+                    "hasChildren": false ,
+                    "contents": [
+                      {
+                        "parentId": 180 ,
+                        "assetId": 181 ,
+                        "name": "Library M&V Influence Factor" ,
+                        "code": "LibraryMVInfluenceFactor" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "GENERIC_SITE_ENTITY" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      } ,
+                      {
+                        "parentId": 180 ,
+                        "assetId": 183 ,
+                        "name": "Library M&V Non-Routine Adjustment" ,
+                        "code": "LibraryMVNon-RoutineAdjustment" ,
+                        "description": null ,
+                        "type": "SITE_ENTITY" ,
+                        "categoryCode": "GENERIC_SITE_ENTITY" ,
+                        "hasChildren": false ,
+                        "contents": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

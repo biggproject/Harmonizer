@@ -1,0 +1,18 @@
+@prefix ns1: <http://bigg-project.eu/> .
+
+<http://bigg-project.eu/instances/building_58> a ns1:Building ;
+    ns1:buildingIdFromOrganization "58" ;
+    ns1:buildingName "Interamerican" ;
+    ns1:hasLocationInfo <http://bigg-project.eu/instances/locationInfo_58> .
+
+<http://bigg-project.eu/instances/addressCountry_58> a ns1:AddressCountry ;
+    ns1:addressCountryCode "GR" .
+
+<http://bigg-project.eu/instances/locationInfo_58> a ns1:LocationInfo ;
+    ns1:addressLatitude "37.9607804" ;
+    ns1:addressLongitude "23.72126837" ;
+    ns1:addressPostalCode "11745" ;
+    ns1:addressStreetName "Syggrou 124 avenue" ;
+    ns1:addressStreetNumber "" ;
+    ns1:hasAddressCountry <http://bigg-project.eu/instances/addressCountry_58> .
+

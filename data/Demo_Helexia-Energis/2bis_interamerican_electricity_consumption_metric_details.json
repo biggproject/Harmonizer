@@ -1,0 +1,12 @@
+{
+  "id": 34766,
+  "assetId": 58,
+  "externalName": "electricity_consumption.actual",
+  "aggregationFunction": "SUM",
+  "medium": "ELECTRICITY",
+  "unit": "kWh",
+  "baseGranularity": null,
+  "label": "indicator.name.electricity_consumption",
+  "description": null,
+  "engine": "FORMULA"
+}

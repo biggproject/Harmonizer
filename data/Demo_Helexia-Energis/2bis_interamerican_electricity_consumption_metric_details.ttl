@@ -1,0 +1,13 @@
+@prefix ns1: <http://bigg-project.eu/> .
+
+<http://bigg-project.eu/instances/deviceAggregator_electricity_consumption.actual> a ns1:DeviceAggregator ;
+    ns1:deviceAggregatorFormula "FORMULA/SUM" ;
+    ns1:deviceAggregatorName "electricity_consumption.actual" ;
+    ns1:includesDevice <http://bigg-project.eu/instances/dataProvider_electricity_consumption.actual> .
+
+<http://bigg-project.eu/instances/dataProvider_electricity_consumption.actual> a ns1:DataProvider ;
+    ns1:hasSensor <http://bigg-project.eu/instances/sensor_electricity_consumption.actual> .
+
+<http://bigg-project.eu/instances/sensor_electricity_consumption.actual> a ns1:Sensor ;
+    ns1:hasMeasurementUnit "kWh" .
+
