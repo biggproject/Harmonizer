@@ -190,13 +190,13 @@ map:s_004 rdf:type rr:SubjectMap ;
 
 map:source_000 rml:iterator "$[*]" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "data\Demo_Helexia-energis\2_interamerican_electricity_consumption_timeseries.json" ;
+	rml:source "data\Demo_Helexia-Energis\2_interamerican_electricity_consumption_timeseries.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "data1" .
 
 map:source_001 rml:iterator "$..timeValues[*]" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "data\Demo_Helexia-energis\2_interamerican_electricity_consumption_timeseries.json" ;
+	rml:source "data\Demo_Helexia-Energis\2_interamerican_electricity_consumption_timeseries.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "data2" .
 

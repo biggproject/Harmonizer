@@ -1,0 +1,48 @@
+@prefix ns1: <http://bigg-project.eu/> .
+
+<http://bigg-project.eu/instances/project_158> a ns1:Project ;
+    ns1:affectsBuilding <http://bigg-project.eu/instances/building_58> ;
+    ns1:projectIdFromOrganization "158" ;
+    ns1:projectName "Cordia" .
+
+<http://bigg-project.eu/instances/buildingSpace_58> a ns1:BuildingSpace ;
+    ns1:containsElement <http://bigg-project.eu/instances/deviceMeter_59>,
+        <http://bigg-project.eu/instances/deviceMeter_60> .
+
+<http://bigg-project.eu/instances/building_58> a ns1:Building ;
+    ns1:buildingIdFromOrganization "58" ;
+    ns1:buildingName "Interamerican" ;
+    ns1:hasSpace <http://bigg-project.eu/instances/buildingSpace_58> ;
+    ns1:pertainsToOrganization <http://bigg-project.eu/instances/organisation_58> .
+
+<http://bigg-project.eu/instances/deviceMeter_59> a ns1:Device ;
+    ns1:deviceIdFromOrganization "59" ;
+    ns1:name "Main Switch Meter 1" .
+
+<http://bigg-project.eu/instances/deviceMeter_60> a ns1:Device ;
+    ns1:deviceIdFromOrganization "60" ;
+    ns1:name "Main Switch Meter 2" .
+
+<http://bigg-project.eu/instances/energyPerformanceContract_185> a ns1:EnergyPerformanceContract ;
+    ns1:contractEndDate "2028/08/01" ;
+    ns1:contractName "M&V Electricity & Oil" ;
+    ns1:contractPerimeter "Total Scope" ;
+    ns1:contractStartDate "2018/08/01" ;
+    ns1:hasObjective <http://bigg-project.eu/instances/energyPerformanceObjective_186>,
+        <http://bigg-project.eu/instances/energyPerformanceObjective_187> .
+
+<http://bigg-project.eu/instances/energyPerformanceObjective_186> a ns1:EnergyPerformanceObjective ;
+    ns1:objectiveDescription "Percentage" ;
+    ns1:objectiveName "M&V Electricity" ;
+    ns1:objectiveTargetValue "12" ;
+    ns1:objectiveUtility "Electricity" .
+
+<http://bigg-project.eu/instances/energyPerformanceObjective_187> a ns1:EnergyPerformanceObjective ;
+    ns1:objectiveDescription "Percentage" ;
+    ns1:objectiveName "M&V Oil" ;
+    ns1:objectiveTargetValue "12" ;
+    ns1:objectiveUtility "Oil" .
+
+<http://bigg-project.eu/instances/organisation_58> a ns1:Organization ;
+    ns1:buysContract <http://bigg-project.eu/instances/energyPerformanceContract_185> .
+

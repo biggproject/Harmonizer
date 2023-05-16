@@ -184,7 +184,7 @@ map:s_002 rdf:type rr:SubjectMap ;
 
 map:source_000 rml:iterator "$" ;
 	rml:referenceFormulation ql:JSONPath ;
-	rml:source "data\Demo_Helexia-energis\1bis_interamerican_asset_details.json" ;
+	rml:source "data\Demo_Helexia-Energis\1bis_interamerican_asset_details.json" ;
 	rdf:type rml:LogicalSource ;
 	rdfs:label "data_b" .
 

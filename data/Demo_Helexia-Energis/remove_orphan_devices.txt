@@ -1,8 +1,15 @@
 prefix bigg: <http://bigg-project.eu/>
 
-SELECT ?device ?space
-WHERE{
-    ?device a bigg:Device.
-    
-    FILTER NOT EXISTS {?space bigg:containsElement ?device}
+
+DELETE {
+    ?device a bigg:Device;
+                bigg:deviceIdFromOrganization ?id;
+                bigg:name ?name.
+} 
+WHERE {
+       ?device a bigg:Device;
+                bigg:deviceIdFromOrganization ?id;
+                bigg:name ?name.
+
+       FILTER NOT EXISTS {?space bigg:containsElement ?device}
 }

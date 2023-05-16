@@ -125,8 +125,8 @@ def harmonizer_sparql(ttl_filename,path_query_files, destination_file):
         query = f.read()
         f.close()
         #sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-        results = g.query(query)
-        g+= results
+        g.update(query)
+        
 
     g.serialize(destination=destination_file, format='ttl')
 #========================================================================================================================================= 
