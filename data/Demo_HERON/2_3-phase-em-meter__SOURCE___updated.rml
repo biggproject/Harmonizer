@@ -1,0 +1,579 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix bigg: <http://bigg-project.eu/> .
+@prefix i: <http://bigg-project.eu/instances/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+
+map:map_device_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "device" ;
+	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006 ;
+	rr:subjectMap map:s_000 .
+
+map:map_measurement_e_0_000 rml:logicalSource map:source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "measurement_e_0" ;
+	rr:predicateObjectMap map:pom_019, map:pom_020, map:pom_021 ;
+	rr:subjectMap map:s_007 .
+
+map:map_measurement_e_1_000 rml:logicalSource map:source_002 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "measurement_e_1" ;
+	rr:predicateObjectMap map:pom_022, map:pom_023, map:pom_024 ;
+	rr:subjectMap map:s_008 .
+
+map:map_measurement_e_2_000 rml:logicalSource map:source_003 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "measurement_e_2" ;
+	rr:predicateObjectMap map:pom_025, map:pom_026, map:pom_027 ;
+	rr:subjectMap map:s_009 .
+
+map:map_measurement_p_0_000 rml:logicalSource map:source_004 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "measurement_p_0" ;
+	rr:predicateObjectMap map:pom_028, map:pom_029, map:pom_030 ;
+	rr:subjectMap map:s_010 .
+
+map:map_measurement_p_1_000 rml:logicalSource map:source_005 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "measurement_p_1" ;
+	rr:predicateObjectMap map:pom_031, map:pom_032, map:pom_033 ;
+	rr:subjectMap map:s_011 .
+
+map:map_measurement_p_2_000 rml:logicalSource map:source_006 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "measurement_p_2" ;
+	rr:predicateObjectMap map:pom_034, map:pom_035, map:pom_036 ;
+	rr:subjectMap map:s_012 .
+
+map:map_sensor_e_0_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "sensor_e_0" ;
+	rr:predicateObjectMap map:pom_007, map:pom_008 ;
+	rr:subjectMap map:s_001 .
+
+map:map_sensor_e_1_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "sensor_e_1" ;
+	rr:predicateObjectMap map:pom_009, map:pom_010 ;
+	rr:subjectMap map:s_002 .
+
+map:map_sensor_e_2_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "sensor_e_2" ;
+	rr:predicateObjectMap map:pom_011, map:pom_012 ;
+	rr:subjectMap map:s_003 .
+
+map:map_sensor_p_0_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "sensor_p_0" ;
+	rr:predicateObjectMap map:pom_013, map:pom_014 ;
+	rr:subjectMap map:s_004 .
+
+map:map_sensor_p_1_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "sensor_p_1" ;
+	rr:predicateObjectMap map:pom_015, map:pom_016 ;
+	rr:subjectMap map:s_005 .
+
+map:map_sensor_p_2_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "sensor_p_2" ;
+	rr:predicateObjectMap map:pom_017, map:pom_018 ;
+	rr:subjectMap map:s_006 .
+
+map:om_000 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Device" ;
+	rr:termType rr:IRI .
+
+map:om_001 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_energy_0" ;
+	rr:termType rr:IRI .
+
+map:om_002 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_energy_1" ;
+	rr:termType rr:IRI .
+
+map:om_003 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_energy_2" ;
+	rr:termType rr:IRI .
+
+map:om_004 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_power_0" ;
+	rr:termType rr:IRI .
+
+map:om_005 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_power_1" ;
+	rr:termType rr:IRI .
+
+map:om_006 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_power_2" ;
+	rr:termType rr:IRI .
+
+map:om_007 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Sensor" ;
+	rr:termType rr:IRI .
+
+map:om_008 rdf:type rr:ObjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_energy_0_{energy.0[*].time}" ;
+	rr:termType rr:IRI .
+
+map:om_009 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Sensor" ;
+	rr:termType rr:IRI .
+
+map:om_010 rdf:type rr:ObjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_energy_1_{energy.1[*].time}" ;
+	rr:termType rr:IRI .
+
+map:om_011 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Sensor" ;
+	rr:termType rr:IRI .
+
+map:om_012 rdf:type rr:ObjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_energy_2_{energy.2[*].time}" ;
+	rr:termType rr:IRI .
+
+map:om_013 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Sensor" ;
+	rr:termType rr:IRI .
+
+map:om_014 rdf:type rr:ObjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_power_0_{power.0[*].time}" ;
+	rr:termType rr:IRI .
+
+map:om_015 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Sensor" ;
+	rr:termType rr:IRI .
+
+map:om_016 rdf:type rr:ObjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_power_1_{power.1[*].time}" ;
+	rr:termType rr:IRI .
+
+map:om_017 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Sensor" ;
+	rr:termType rr:IRI .
+
+map:om_018 rdf:type rr:ObjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_power_2_{power.2[*].time}" ;
+	rr:termType rr:IRI .
+
+map:om_019 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Measurement" ;
+	rr:termType rr:IRI .
+
+map:om_020 rml:reference "value" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_021 rml:reference "time" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_022 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Measurement" ;
+	rr:termType rr:IRI .
+
+map:om_023 rml:reference "value" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_024 rml:reference "time" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_025 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Measurement" ;
+	rr:termType rr:IRI .
+
+map:om_026 rml:reference "value" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_027 rml:reference "time" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_028 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Measurement" ;
+	rr:termType rr:IRI .
+
+map:om_029 rml:reference "value" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_030 rml:reference "time" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_031 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Measurement" ;
+	rr:termType rr:IRI .
+
+map:om_032 rml:reference "value" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_033 rml:reference "time" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_034 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Measurement" ;
+	rr:termType rr:IRI .
+
+map:om_035 rml:reference "value" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_036 rml:reference "time" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasSensor .
+
+map:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasSensor .
+
+map:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasSensor .
+
+map:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasSensor .
+
+map:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasSensor .
+
+map:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasSensor .
+
+map:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasMeasurement .
+
+map:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasMeasurement .
+
+map:pm_011 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_012 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasMeasurement .
+
+map:pm_013 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_014 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasMeasurement .
+
+map:pm_015 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_016 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasMeasurement .
+
+map:pm_017 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_018 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasMeasurement .
+
+map:pm_019 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_020 rdf:type rr:PredicateMap ;
+	rr:constant bigg:value .
+
+map:pm_021 rdf:type rr:PredicateMap ;
+	rr:constant bigg:start .
+
+map:pm_022 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_023 rdf:type rr:PredicateMap ;
+	rr:constant bigg:value .
+
+map:pm_024 rdf:type rr:PredicateMap ;
+	rr:constant bigg:start .
+
+map:pm_025 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_026 rdf:type rr:PredicateMap ;
+	rr:constant bigg:value .
+
+map:pm_027 rdf:type rr:PredicateMap ;
+	rr:constant bigg:start .
+
+map:pm_028 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_029 rdf:type rr:PredicateMap ;
+	rr:constant bigg:value .
+
+map:pm_030 rdf:type rr:PredicateMap ;
+	rr:constant bigg:start .
+
+map:pm_031 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_032 rdf:type rr:PredicateMap ;
+	rr:constant bigg:value .
+
+map:pm_033 rdf:type rr:PredicateMap ;
+	rr:constant bigg:start .
+
+map:pm_034 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_035 rdf:type rr:PredicateMap ;
+	rr:constant bigg:value .
+
+map:pm_036 rdf:type rr:PredicateMap ;
+	rr:constant bigg:start .
+
+map:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_000 ;
+	rr:predicateMap map:pm_000 .
+
+map:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_001 ;
+	rr:predicateMap map:pm_001 .
+
+map:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_002 ;
+	rr:predicateMap map:pm_002 .
+
+map:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_003 ;
+	rr:predicateMap map:pm_003 .
+
+map:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_004 ;
+	rr:predicateMap map:pm_004 .
+
+map:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_005 ;
+	rr:predicateMap map:pm_005 .
+
+map:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_006 ;
+	rr:predicateMap map:pm_006 .
+
+map:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_007 ;
+	rr:predicateMap map:pm_007 .
+
+map:pom_008 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_008 ;
+	rr:predicateMap map:pm_008 .
+
+map:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_009 ;
+	rr:predicateMap map:pm_009 .
+
+map:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_010 ;
+	rr:predicateMap map:pm_010 .
+
+map:pom_011 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_011 ;
+	rr:predicateMap map:pm_011 .
+
+map:pom_012 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_012 ;
+	rr:predicateMap map:pm_012 .
+
+map:pom_013 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_013 ;
+	rr:predicateMap map:pm_013 .
+
+map:pom_014 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_014 ;
+	rr:predicateMap map:pm_014 .
+
+map:pom_015 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_015 ;
+	rr:predicateMap map:pm_015 .
+
+map:pom_016 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_016 ;
+	rr:predicateMap map:pm_016 .
+
+map:pom_017 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_017 ;
+	rr:predicateMap map:pm_017 .
+
+map:pom_018 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_018 ;
+	rr:predicateMap map:pm_018 .
+
+map:pom_019 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_019 ;
+	rr:predicateMap map:pm_019 .
+
+map:pom_020 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_020 ;
+	rr:predicateMap map:pm_020 .
+
+map:pom_021 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_021 ;
+	rr:predicateMap map:pm_021 .
+
+map:pom_022 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_022 ;
+	rr:predicateMap map:pm_022 .
+
+map:pom_023 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_023 ;
+	rr:predicateMap map:pm_023 .
+
+map:pom_024 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_024 ;
+	rr:predicateMap map:pm_024 .
+
+map:pom_025 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_025 ;
+	rr:predicateMap map:pm_025 .
+
+map:pom_026 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_026 ;
+	rr:predicateMap map:pm_026 .
+
+map:pom_027 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_027 ;
+	rr:predicateMap map:pm_027 .
+
+map:pom_028 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_028 ;
+	rr:predicateMap map:pm_028 .
+
+map:pom_029 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_029 ;
+	rr:predicateMap map:pm_029 .
+
+map:pom_030 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_030 ;
+	rr:predicateMap map:pm_030 .
+
+map:pom_031 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_031 ;
+	rr:predicateMap map:pm_031 .
+
+map:pom_032 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_032 ;
+	rr:predicateMap map:pm_032 .
+
+map:pom_033 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_033 ;
+	rr:predicateMap map:pm_033 .
+
+map:pom_034 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_034 ;
+	rr:predicateMap map:pm_034 .
+
+map:pom_035 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_035 ;
+	rr:predicateMap map:pm_035 .
+
+map:pom_036 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_036 ;
+	rr:predicateMap map:pm_036 .
+
+map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_device_000, map:map_measurement_e_0_000, map:map_measurement_e_1_000, map:map_measurement_e_2_000, map:map_measurement_p_0_000, map:map_measurement_p_1_000, map:map_measurement_p_2_000, map:map_sensor_e_0_000, map:map_sensor_e_1_000, map:map_sensor_e_2_000, map:map_sensor_p_0_000, map:map_sensor_p_1_000, map:map_sensor_p_2_000 ;
+	rdf:type <http://rdfs.org/ns/void#Dataset> .
+
+map:s_000 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/device_{deviceid}" .
+
+map:s_001 rdf:type rr:SubjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_energy_0" .
+
+map:s_002 rdf:type rr:SubjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_energy_1" .
+
+map:s_003 rdf:type rr:SubjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_energy_2" .
+
+map:s_004 rdf:type rr:SubjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_power_0" .
+
+map:s_005 rdf:type rr:SubjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_power_1" .
+
+map:s_006 rdf:type rr:SubjectMap ;
+	rr:constant "http://bigg-project.eu/instances/sensor_power_2" .
+
+map:s_007 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_energy_0_{time}" .
+
+map:s_008 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_energy_1_{time}" .
+
+map:s_009 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_energy_2_{time}" .
+
+map:s_010 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_power_0_{time}" .
+
+map:s_011 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_power_1_{time}" .
+
+map:s_012 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/measurement_power_2_{time}" .
+
+map:source_000 rml:iterator "$" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data\Demo_HERON\2_3-phase-em-meter.json" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "data_s" .
+
+map:source_001 rml:iterator "$.energy.0[*]" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data\Demo_HERON\2_3-phase-em-meter.json" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "data_e0" .
+
+map:source_002 rml:iterator "$.energy.1[*]" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data\Demo_HERON\2_3-phase-em-meter.json" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "data_e1" .
+
+map:source_003 rml:iterator "$.energy.2[*]" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data\Demo_HERON\2_3-phase-em-meter.json" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "data_e2" .
+
+map:source_004 rml:iterator "$.power.0[*]" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data\Demo_HERON\2_3-phase-em-meter.json" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "data_p0" .
+
+map:source_005 rml:iterator "$.power.1[*]" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data\Demo_HERON\2_3-phase-em-meter.json" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "data_p1" .
+
+map:source_006 rml:iterator "$.power.2[*]" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data\Demo_HERON\2_3-phase-em-meter.json" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "data_p2" .
+

@@ -1,0 +1,299 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix bigg: <http://bigg-project.eu/> .
+@prefix i: <http://bigg-project.eu/instances/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+
+map:map_buildingSpace_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "buildingSpace" ;
+	rr:predicateObjectMap map:pom_008, map:pom_009, map:pom_010, map:pom_011, map:pom_012 ;
+	rr:subjectMap map:s_002 .
+
+map:map_building_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "building" ;
+	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003 ;
+	rr:subjectMap map:s_000 .
+
+map:map_deviceType_000 rml:logicalSource map:source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "deviceType" ;
+	rr:predicateObjectMap map:pom_018, map:pom_019 ;
+	rr:subjectMap map:s_005 .
+
+map:map_device_000 rml:logicalSource map:source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "device" ;
+	rr:predicateObjectMap map:pom_015, map:pom_016, map:pom_017 ;
+	rr:subjectMap map:s_004 .
+
+map:map_locationInfo_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "locationInfo" ;
+	rr:predicateObjectMap map:pom_004, map:pom_005, map:pom_006, map:pom_007 ;
+	rr:subjectMap map:s_001 .
+
+map:map_occupancyProfile_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "occupancyProfile" ;
+	rr:predicateObjectMap map:pom_013, map:pom_014 ;
+	rr:subjectMap map:s_003 .
+
+map:om_000 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Building" ;
+	rr:termType rr:IRI .
+
+map:om_001 rdf:type rr:ObjectMap ;
+	rr:template "building_{homeid}" ;
+	rr:termType rr:Literal .
+
+map:om_002 rdf:type rr:ObjectMap ;
+	rr:template "http://bigg-project.eu/instances/locationInfo_building_{homeid}" ;
+	rr:termType rr:IRI .
+
+map:om_003 rdf:type rr:ObjectMap ;
+	rr:template "http://bigg-project.eu/instances/buildingSpace_{homeid}" ;
+	rr:termType rr:IRI .
+
+map:om_004 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/LocationInfo" ;
+	rr:termType rr:IRI .
+
+map:om_005 rml:reference "latitude" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_006 rml:reference "longitude" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_007 rml:reference "climatic_zone" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_008 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/BuildingSpace" ;
+	rr:termType rr:IRI .
+
+map:om_009 rdf:type rr:ObjectMap ;
+	rr:template "building_{homeid}" ;
+	rr:termType rr:Literal .
+
+map:om_010 rml:reference "sqm" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_011 rdf:type rr:ObjectMap ;
+	rr:template "http://bigg-project.eu/instances/occupancyProfile_building_{homeid}" ;
+	rr:termType rr:IRI .
+
+map:om_012 rdf:type rr:ObjectMap ;
+	rr:template "http://bigg-project.eu/instances/device_{devices[*].deviceid}" ;
+	rr:termType rr:IRI .
+
+map:om_013 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/OccupancyProfile" ;
+	rr:termType rr:IRI .
+
+map:om_014 rml:reference "occupants" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_015 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/Device" ;
+	rr:termType rr:IRI .
+
+map:om_016 rml:reference "deviceid" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_017 rdf:type rr:ObjectMap ;
+	rr:template "http://bigg-project.eu/instances/deviceType_{type}" ;
+	rr:termType rr:IRI .
+
+map:om_018 rdf:type rr:ObjectMap ;
+	rr:constant "http://bigg-project.eu/DeviceType" ;
+	rr:termType rr:IRI .
+
+map:om_019 rml:reference "type_text" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant bigg:buildingName .
+
+map:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasLocationInfo .
+
+map:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasSpace .
+
+map:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant bigg:adressLatitude .
+
+map:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant bigg:adressLongitude .
+
+map:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasAddressClimateZone .
+
+map:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant bigg:buildingSpaceName .
+
+map:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasArea .
+
+map:pm_011 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasOccupencyProfile .
+
+map:pm_012 rdf:type rr:PredicateMap ;
+	rr:constant bigg:isAssociatedWithElement .
+
+map:pm_013 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_014 rdf:type rr:PredicateMap ;
+	rr:constant bigg:occupancyNumberOfOccupants .
+
+map:pm_015 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_016 rdf:type rr:PredicateMap ;
+	rr:constant bigg:deviceIDFromOrganization .
+
+map:pm_017 rdf:type rr:PredicateMap ;
+	rr:constant bigg:hasDeviceType .
+
+map:pm_018 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_019 rdf:type rr:PredicateMap ;
+	rr:constant bigg:deviceTypeName .
+
+map:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_000 ;
+	rr:predicateMap map:pm_000 .
+
+map:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_001 ;
+	rr:predicateMap map:pm_001 .
+
+map:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_002 ;
+	rr:predicateMap map:pm_002 .
+
+map:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_003 ;
+	rr:predicateMap map:pm_003 .
+
+map:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_004 ;
+	rr:predicateMap map:pm_004 .
+
+map:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_005 ;
+	rr:predicateMap map:pm_005 .
+
+map:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_006 ;
+	rr:predicateMap map:pm_006 .
+
+map:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_007 ;
+	rr:predicateMap map:pm_007 .
+
+map:pom_008 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_008 ;
+	rr:predicateMap map:pm_008 .
+
+map:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_009 ;
+	rr:predicateMap map:pm_009 .
+
+map:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_010 ;
+	rr:predicateMap map:pm_010 .
+
+map:pom_011 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_011 ;
+	rr:predicateMap map:pm_011 .
+
+map:pom_012 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_012 ;
+	rr:predicateMap map:pm_012 .
+
+map:pom_013 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_013 ;
+	rr:predicateMap map:pm_013 .
+
+map:pom_014 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_014 ;
+	rr:predicateMap map:pm_014 .
+
+map:pom_015 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_015 ;
+	rr:predicateMap map:pm_015 .
+
+map:pom_016 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_016 ;
+	rr:predicateMap map:pm_016 .
+
+map:pom_017 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_017 ;
+	rr:predicateMap map:pm_017 .
+
+map:pom_018 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_018 ;
+	rr:predicateMap map:pm_018 .
+
+map:pom_019 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_019 ;
+	rr:predicateMap map:pm_019 .
+
+map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_buildingSpace_000, map:map_building_000, map:map_deviceType_000, map:map_device_000, map:map_locationInfo_000, map:map_occupancyProfile_000 ;
+	rdf:type <http://rdfs.org/ns/void#Dataset> .
+
+map:s_000 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/building_{homeid}" .
+
+map:s_001 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/locationInfo_building_{homeid}" .
+
+map:s_002 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/buildingSpace_{homeid}" .
+
+map:s_003 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/occupancyProfile_building_{homeid}" .
+
+map:s_004 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/device_{deviceid}" .
+
+map:s_005 rdf:type rr:SubjectMap ;
+	rr:template "http://bigg-project.eu/instances/deviceType_{type}" .
+
+map:source_000 rml:iterator "$" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data\Demo_HERON\1_BIGG_HERON_Static_Home_Data.json" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "data_b" .
+
+map:source_001 rml:iterator "$.devices[*]" ;
+	rml:referenceFormulation ql:JSONPath ;
+	rml:source "data\Demo_HERON\1_BIGG_HERON_Static_Home_Data.json" ;
+	rdf:type rml:LogicalSource ;
+	rdfs:label "data_d" .
+
