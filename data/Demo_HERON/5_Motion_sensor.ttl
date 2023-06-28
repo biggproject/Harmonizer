@@ -1,0 +1,27 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bigg: <http://bigg-project.eu/> .
+@prefix i: <http://bigg-project.eu/instances/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+
+i:device_domxmotionsensor-60A423992494 rdf:type bigg:Device ;
+	bigg:hasSensor i:sensor_motion .
+
+i:measurement_motion_2023-03-10T14%3A10%3A59.133Z rdf:type bigg:Measurement ;
+	bigg:value "1" ;
+	bigg:start "2023-03-10T14:10:59.133Z" .
+
+i:measurement_motion_2023-03-10T14%3A20%3A36.488Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-03-10T14:20:36.488Z" .
+
+i:measurement_motion_2023-03-10T14%3A31%3A27.186Z rdf:type bigg:Measurement ;
+	bigg:value "1" ;
+	bigg:start "2023-03-10T14:31:27.186Z" .
+
+i:measurement_motion_2023-03-10T14%3A43%3A36.069Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-03-10T14:43:36.069Z" .
+
+i:sensor_motion rdf:type bigg:Sensor ;
+	bigg:hasMeasurement i:measurement_motion_2023-03-10T14%3A10%3A59.133Z, i:measurement_motion_2023-03-10T14%3A20%3A36.488Z, i:measurement_motion_2023-03-10T14%3A31%3A27.186Z, i:measurement_motion_2023-03-10T14%3A43%3A36.069Z .
+

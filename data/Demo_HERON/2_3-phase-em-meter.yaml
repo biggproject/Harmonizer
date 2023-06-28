@@ -1,0 +1,150 @@
+prefixes:
+ bigg: "http://bigg-project.eu/"
+ i: "http://bigg-project.eu/instances/"
+ grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
+ 
+sources:
+    data_s:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$"
+
+    data_e0:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$.energy.0[*]"
+
+    data_e1:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$.energy.1[*]"
+
+    data_e2:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$.energy.2[*]"
+
+    data_p0:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$.power.0[*]"
+
+    data_p1:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$.power.1[*]"
+
+    data_p2:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$.power.2[*]"
+
+mappings:
+  device:
+    source: data_s
+    s: i:device_$(deviceid)
+    po:
+      - [a, bigg:Device]
+      - [bigg:hasSensor, i:sensor_energy_0~iri]
+      - [bigg:hasSensor, i:sensor_energy_1~iri]
+      - [bigg:hasSensor, i:sensor_energy_2~iri]
+      - [bigg:hasSensor, i:sensor_power_0~iri]
+      - [bigg:hasSensor, i:sensor_power_1~iri]
+      - [bigg:hasSensor, i:sensor_power_2~iri]
+
+  sensor_e_0:
+    source: data_s
+    s: i:sensor_energy_0
+    po:
+      - [a, bigg:Sensor]
+      - p: bigg:hasMeasurement
+        o: i:measurement_energy_0_$(energy.0[*].time)~iri
+
+
+  sensor_e_1:
+    source: data_s
+    s: i:sensor_energy_1
+    po:
+      - [a, bigg:Sensor]
+      - p: bigg:hasMeasurement
+        o: i:measurement_energy_1_$(energy.1[*].time)~iri
+
+  sensor_e_2:
+    source: data_s
+    s: i:sensor_energy_2
+    po:
+      - [a, bigg:Sensor]
+      - p: bigg:hasMeasurement
+        o: i:measurement_energy_2_$(energy.2[*].time)~iri
+
+  sensor_p_0:
+    source: data_s
+    s: i:sensor_power_0
+    po:
+      - [a, bigg:Sensor]
+      - p: bigg:hasMeasurement
+        o: i:measurement_power_0_$(power.0[*].time)~iri
+ 
+  sensor_p_1:
+    source: data_s
+    s: i:sensor_power_1
+    po:
+      - [a, bigg:Sensor]
+      - p: bigg:hasMeasurement
+        o: i:measurement_power_1_$(power.1[*].time)~iri
+ 
+  sensor_p_2:
+    source: data_s
+    s: i:sensor_power_2
+    po:
+      - [a, bigg:Sensor]
+      - p: bigg:hasMeasurement
+        o: i:measurement_power_2_$(power.2[*].time)~iri
+ 
+  measurement_e_0:
+    source: data_e0
+    s: i:measurement_energy_0_$(time)
+    po:
+      - [a, bigg:Measurement]
+      - [bigg:value, $(value)]
+      - [bigg:start, $(time)]
+
+  measurement_e_1:
+    source: data_e1
+    s: i:measurement_energy_1_$(time)
+    po:
+      - [a, bigg:Measurement]
+      - [bigg:value, $(value)]
+      - [bigg:start, $(time)]
+
+  measurement_e_2:
+    source: data_e2
+    s: i:measurement_energy_2_$(time)
+    po:
+      - [a, bigg:Measurement]
+      - [bigg:value, $(value)]
+      - [bigg:start, $(time)]
+
+  measurement_p_0:
+    source: data_p0
+    s: i:measurement_power_0_$(time)
+    po:
+      - [a, bigg:Measurement]
+      - [bigg:value, $(value)]
+      - [bigg:start, $(time)]
+
+  measurement_p_1:
+    source: data_p1
+    s: i:measurement_power_1_$(time)
+    po:
+      - [a, bigg:Measurement]
+      - [bigg:value, $(value)]
+      - [bigg:start, $(time)]
+
+  measurement_p_2:
+    source: data_p2
+    s: i:measurement_power_2_$(time)
+    po:
+      - [a, bigg:Measurement]
+      - [bigg:value, $(value)]
+      - [bigg:start, $(time)]

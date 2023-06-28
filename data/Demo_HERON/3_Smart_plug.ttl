@@ -1,0 +1,74 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bigg: <http://bigg-project.eu/> .
+@prefix i: <http://bigg-project.eu/instances/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+
+i:device_domxplug-2842FB rdf:type bigg:Device ;
+	bigg:hasSensor i:sensor_energy_0, i:sensor_power_0 .
+
+i:sensor_energy_0 rdf:type bigg:Sensor ;
+	bigg:hasMeasurement i:measurement_energy_0_2023-03-10T09%3A30%3A25.139Z, i:measurement_energy_0_2023-03-10T09%3A30%3A24.671Z, i:measurement_energy_0_2023-03-10T09%3A29%3A55.136Z, i:measurement_energy_0_2023-03-10T09%3A29%3A25.132Z, i:measurement_energy_0_2023-03-10T09%3A29%3A22.708Z, i:measurement_energy_0_2023-03-10T09%3A28%3A55.129Z, i:measurement_energy_0_2023-03-10T09%3A28%3A25.125Z, i:measurement_energy_0_2023-03-10T09%3A28%3A23.771Z, i:measurement_energy_0_2023-03-10T09%3A27%3A55.122Z .
+
+i:sensor_power_0 rdf:type bigg:Sensor ;
+	bigg:hasMeasurement i:measurement_power_0_2023-03-10T09%3A30%3A25.139Z, i:measurement_power_0_2023-03-10T09%3A29%3A55.136Z, i:measurement_power_0_2023-03-10T09%3A29%3A25.132Z, i:measurement_power_0_2023-03-10T09%3A28%3A55.129Z, i:measurement_power_0_2023-03-10T09%3A28%3A25.125Z, i:measurement_power_0_2023-03-10T09%3A27%3A55.122Z .
+
+i:measurement_energy_0_2023-03-10T09%3A30%3A25.139Z rdf:type bigg:Measurement ;
+	bigg:value "947821" ;
+	bigg:start "2023-03-10T09:30:25.139Z" .
+
+i:measurement_energy_0_2023-03-10T09%3A30%3A24.671Z rdf:type bigg:Measurement ;
+	bigg:value "947821" ;
+	bigg:start "2023-03-10T09:30:24.671Z" .
+
+i:measurement_energy_0_2023-03-10T09%3A29%3A55.136Z rdf:type bigg:Measurement ;
+	bigg:value "945755" ;
+	bigg:start "2023-03-10T09:29:55.136Z" .
+
+i:measurement_energy_0_2023-03-10T09%3A29%3A25.132Z rdf:type bigg:Measurement ;
+	bigg:value "945755" ;
+	bigg:start "2023-03-10T09:29:25.132Z" .
+
+i:measurement_energy_0_2023-03-10T09%3A29%3A22.708Z rdf:type bigg:Measurement ;
+	bigg:value "945755" ;
+	bigg:start "2023-03-10T09:29:22.708Z" .
+
+i:measurement_energy_0_2023-03-10T09%3A28%3A55.129Z rdf:type bigg:Measurement ;
+	bigg:value "943717" ;
+	bigg:start "2023-03-10T09:28:55.129Z" .
+
+i:measurement_energy_0_2023-03-10T09%3A28%3A25.125Z rdf:type bigg:Measurement ;
+	bigg:value "943717" ;
+	bigg:start "2023-03-10T09:28:25.125Z" .
+
+i:measurement_energy_0_2023-03-10T09%3A28%3A23.771Z rdf:type bigg:Measurement ;
+	bigg:value "943717" ;
+	bigg:start "2023-03-10T09:28:23.771Z" .
+
+i:measurement_energy_0_2023-03-10T09%3A27%3A55.122Z rdf:type bigg:Measurement ;
+	bigg:value "941684" ;
+	bigg:start "2023-03-10T09:27:55.122Z" .
+
+i:measurement_power_0_2023-03-10T09%3A30%3A25.139Z rdf:type bigg:Measurement ;
+	bigg:value "2061.17" ;
+	bigg:start "2023-03-10T09:30:25.139Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A55.136Z rdf:type bigg:Measurement ;
+	bigg:value "2074.36" ;
+	bigg:start "2023-03-10T09:29:55.136Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A25.132Z rdf:type bigg:Measurement ;
+	bigg:value "2058.9" ;
+	bigg:start "2023-03-10T09:29:25.132Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A55.129Z rdf:type bigg:Measurement ;
+	bigg:value "2064.03" ;
+	bigg:start "2023-03-10T09:28:55.129Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A25.125Z rdf:type bigg:Measurement ;
+	bigg:value "2050.97" ;
+	bigg:start "2023-03-10T09:28:25.125Z" .
+
+i:measurement_power_0_2023-03-10T09%3A27%3A55.122Z rdf:type bigg:Measurement ;
+	bigg:value "2033.91" ;
+	bigg:start "2023-03-10T09:27:55.122Z" .
+

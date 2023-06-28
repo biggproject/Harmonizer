@@ -1,0 +1,30 @@
+{
+    "homeid":39,
+    "sqm":107,
+    "occupants":2,
+    "latitude":40.6039822,
+    "longitude":22.9502155,
+    "devices": [
+        {
+            "deviceid": "domxem3-ECFABCC7F071",
+            "type": "2",
+            "type_text": "3-phase EM_METER"
+        },
+        {
+            "deviceid": "domxplug-2842FB",
+            "type": "4",
+            "type_text": "Smart Plug"
+        },
+        {
+            "deviceid": "shellyplug-s-C1AE2F",
+            "type": "5",
+            "type_text": "Smart Plug S"
+        },
+        {
+            "deviceid": "domxmotionsensor-60A423992494",
+            "type": "6",
+            "type_text": "Motion Sensor"
+        }
+    ],
+    "climatic_zone":"GRC_A"
+}

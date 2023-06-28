@@ -1,0 +1,71 @@
+prefixes:
+ bigg: "http://bigg-project.eu/"
+ i: "http://bigg-project.eu/instances/"
+ grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
+ 
+sources:
+    data_b:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$"
+
+    data_d:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$.devices[*]"
+
+mappings:
+  building:
+    sources: data_b
+    s: i:building_$(homeid)
+    po:
+      - [a, bigg:Building]
+      - [bigg:buildingName, building_$(homeid)]
+      - p: bigg:hasLocationInfo
+        o: i:locationInfo_building_$(homeid)~iri
+      - p: bigg:hasSpace
+        o: i:buildingSpace_$(homeid)~iri
+        
+  locationInfo:
+    sources: data_b
+    s: i:locationInfo_building_$(homeid)
+    po:
+      - [a, bigg:LocationInfo]
+      - [bigg:adressLatitude, $(latitude)]
+      - [bigg:adressLongitude, $(longitude)]
+      - p: bigg:hasAddressClimateZone
+        o: $(climatic_zone)
+
+  buildingSpace:
+    sources: data_b
+    s: i:buildingSpace_$(homeid)
+    po:
+      - [a, bigg:BuildingSpace]
+      - [bigg:buildingSpaceName, building_$(homeid)]
+      - [bigg:hasArea, $(sqm)]
+      - p: bigg:hasOccupencyProfile
+        o: i:occupancyProfile_building_$(homeid)~iri
+      - p: bigg:isAssociatedWithElement
+        o: i:device_$(devices[*].deviceid)~iri
+
+  occupancyProfile:
+    source: data_b
+    s: i:occupancyProfile_building_$(homeid)
+    po:
+      - [a, bigg:OccupancyProfile]
+      - [bigg:occupancyNumberOfOccupants, $(occupants)]
+
+  device:
+    source: data_d
+    s: i:device_$(deviceid)
+    po:
+      - [a, bigg:Device]
+      - [bigg:deviceIDFromOrganization, $(deviceid)]
+      - [bigg:hasDeviceType, i:deviceType_$(type)~iri]
+      
+  deviceType:
+    source: data_d
+    s: i:deviceType_$(type)
+    po:
+      - [a,bigg:DeviceType]
+      - [bigg:deviceTypeName, $(type_text)]

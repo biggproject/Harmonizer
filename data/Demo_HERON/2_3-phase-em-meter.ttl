@@ -1,0 +1,542 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bigg: <http://bigg-project.eu/> .
+@prefix i: <http://bigg-project.eu/instances/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+
+i:device_domxem3-ECFABCC7F071 rdf:type bigg:Device ;
+	bigg:hasSensor i:sensor_energy_0, i:sensor_energy_1, i:sensor_energy_2, i:sensor_power_0, i:sensor_power_1, i:sensor_power_2 .
+
+i:sensor_energy_0 rdf:type bigg:Sensor ;
+	bigg:hasMeasurement i:measurement_energy_0_2023-03-10T09%3A30%3A01.897Z, i:measurement_energy_0_2023-03-10T09%3A29%3A00.892Z, i:measurement_energy_0_2023-03-10T09%3A28%3A00.969Z .
+
+i:sensor_energy_1 rdf:type bigg:Sensor ;
+	bigg:hasMeasurement i:measurement_energy_1_2023-03-10T09%3A30%3A01.897Z, i:measurement_energy_1_2023-03-10T09%3A29%3A00.892Z, i:measurement_energy_1_2023-03-10T09%3A28%3A00.969Z .
+
+i:sensor_energy_2 rdf:type bigg:Sensor ;
+	bigg:hasMeasurement i:measurement_energy_2_2023-03-10T09%3A30%3A00.675Z, i:measurement_energy_2_2023-03-10T09%3A29%3A00.892Z, i:measurement_energy_2_2023-03-10T09%3A28%3A00.970Z .
+
+i:sensor_power_0 rdf:type bigg:Sensor ;
+	bigg:hasMeasurement i:measurement_power_0_2023-03-10T09%3A30%3A40.340Z, i:measurement_power_0_2023-03-10T09%3A30%3A33.519Z, i:measurement_power_0_2023-03-10T09%3A30%3A29.520Z, i:measurement_power_0_2023-03-10T09%3A30%3A21.523Z, i:measurement_power_0_2023-03-10T09%3A30%3A17.523Z, i:measurement_power_0_2023-03-10T09%3A30%3A11.524Z, i:measurement_power_0_2023-03-10T09%3A30%3A10.332Z, i:measurement_power_0_2023-03-10T09%3A30%3A07.526Z, i:measurement_power_0_2023-03-10T09%3A30%3A05.528Z, i:measurement_power_0_2023-03-10T09%3A29%3A54.535Z, i:measurement_power_0_2023-03-10T09%3A29%3A52.546Z, i:measurement_power_0_2023-03-10T09%3A29%3A42.542Z, i:measurement_power_0_2023-03-10T09%3A29%3A40.326Z, i:measurement_power_0_2023-03-10T09%3A29%3A38.545Z, i:measurement_power_0_2023-03-10T09%3A29%3A36.545Z, i:measurement_power_0_2023-03-10T09%3A29%3A29.549Z, i:measurement_power_0_2023-03-10T09%3A29%3A25.552Z, i:measurement_power_0_2023-03-10T09%3A29%3A16.556Z, i:measurement_power_0_2023-03-10T09%3A29%3A14.557Z, i:measurement_power_0_2023-03-10T09%3A29%3A10.560Z, i:measurement_power_0_2023-03-10T09%3A29%3A10.317Z, i:measurement_power_0_2023-03-10T09%3A29%3A02.567Z, i:measurement_power_0_2023-03-10T09%3A29%3A00.945Z, i:measurement_power_0_2023-03-10T09%3A28%3A59.565Z, i:measurement_power_0_2023-03-10T09%3A28%3A52.569Z, i:measurement_power_0_2023-03-10T09%3A28%3A50.570Z, i:measurement_power_0_2023-03-10T09%3A28%3A48.572Z, i:measurement_power_0_2023-03-10T09%3A28%3A40.311Z, i:measurement_power_0_2023-03-10T09%3A28%3A37.576Z, i:measurement_power_0_2023-03-10T09%3A28%3A35.578Z, i:measurement_power_0_2023-03-10T09%3A28%3A24.582Z, i:measurement_power_0_2023-03-10T09%3A28%3A22.583Z, i:measurement_power_0_2023-03-10T09%3A28%3A16.589Z, i:measurement_power_0_2023-03-10T09%3A28%3A12.588Z, i:measurement_power_0_2023-03-10T09%3A28%3A10.303Z, i:measurement_power_0_2023-03-10T09%3A28%3A08.588Z, i:measurement_power_0_2023-03-10T09%3A27%3A59.591Z, i:measurement_power_0_2023-03-10T09%3A27%3A56.594Z, i:measurement_power_0_2023-03-10T09%3A27%3A46.597Z, i:measurement_power_0_2023-03-10T09%3A27%3A45.694Z .
+
+i:sensor_power_1 rdf:type bigg:Sensor ;
+	bigg:hasMeasurement i:measurement_power_1_2023-03-10T09%3A30%3A40.340Z, i:measurement_power_1_2023-03-10T09%3A30%3A33.519Z, i:measurement_power_1_2023-03-10T09%3A30%3A29.521Z, i:measurement_power_1_2023-03-10T09%3A30%3A21.523Z, i:measurement_power_1_2023-03-10T09%3A30%3A17.523Z, i:measurement_power_1_2023-03-10T09%3A30%3A11.525Z, i:measurement_power_1_2023-03-10T09%3A30%3A10.332Z, i:measurement_power_1_2023-03-10T09%3A30%3A07.526Z, i:measurement_power_1_2023-03-10T09%3A30%3A05.529Z, i:measurement_power_1_2023-03-10T09%3A29%3A54.535Z, i:measurement_power_1_2023-03-10T09%3A29%3A52.546Z, i:measurement_power_1_2023-03-10T09%3A29%3A42.542Z, i:measurement_power_1_2023-03-10T09%3A29%3A40.327Z, i:measurement_power_1_2023-03-10T09%3A29%3A38.545Z, i:measurement_power_1_2023-03-10T09%3A29%3A36.545Z, i:measurement_power_1_2023-03-10T09%3A29%3A29.549Z, i:measurement_power_1_2023-03-10T09%3A29%3A25.552Z, i:measurement_power_1_2023-03-10T09%3A29%3A16.556Z, i:measurement_power_1_2023-03-10T09%3A29%3A14.557Z, i:measurement_power_1_2023-03-10T09%3A29%3A10.560Z, i:measurement_power_1_2023-03-10T09%3A29%3A10.317Z, i:measurement_power_1_2023-03-10T09%3A29%3A02.567Z, i:measurement_power_1_2023-03-10T09%3A29%3A00.945Z, i:measurement_power_1_2023-03-10T09%3A28%3A59.566Z, i:measurement_power_1_2023-03-10T09%3A28%3A52.570Z, i:measurement_power_1_2023-03-10T09%3A28%3A50.570Z, i:measurement_power_1_2023-03-10T09%3A28%3A48.572Z, i:measurement_power_1_2023-03-10T09%3A28%3A40.311Z, i:measurement_power_1_2023-03-10T09%3A28%3A37.576Z, i:measurement_power_1_2023-03-10T09%3A28%3A35.578Z, i:measurement_power_1_2023-03-10T09%3A28%3A24.582Z, i:measurement_power_1_2023-03-10T09%3A28%3A22.583Z, i:measurement_power_1_2023-03-10T09%3A28%3A16.589Z, i:measurement_power_1_2023-03-10T09%3A28%3A12.589Z, i:measurement_power_1_2023-03-10T09%3A28%3A10.303Z, i:measurement_power_1_2023-03-10T09%3A28%3A08.588Z, i:measurement_power_1_2023-03-10T09%3A27%3A59.591Z, i:measurement_power_1_2023-03-10T09%3A27%3A56.594Z, i:measurement_power_1_2023-03-10T09%3A27%3A46.597Z, i:measurement_power_1_2023-03-10T09%3A27%3A45.695Z .
+
+i:sensor_power_2 rdf:type bigg:Sensor ;
+	bigg:hasMeasurement i:measurement_power_2_2023-03-10T09%3A30%3A40.340Z, i:measurement_power_2_2023-03-10T09%3A30%3A33.520Z, i:measurement_power_2_2023-03-10T09%3A30%3A29.521Z, i:measurement_power_2_2023-03-10T09%3A30%3A21.523Z, i:measurement_power_2_2023-03-10T09%3A30%3A17.523Z, i:measurement_power_2_2023-03-10T09%3A30%3A11.525Z, i:measurement_power_2_2023-03-10T09%3A30%3A10.333Z, i:measurement_power_2_2023-03-10T09%3A30%3A07.527Z, i:measurement_power_2_2023-03-10T09%3A30%3A05.529Z, i:measurement_power_2_2023-03-10T09%3A29%3A54.535Z, i:measurement_power_2_2023-03-10T09%3A29%3A52.546Z, i:measurement_power_2_2023-03-10T09%3A29%3A42.542Z, i:measurement_power_2_2023-03-10T09%3A29%3A40.327Z, i:measurement_power_2_2023-03-10T09%3A29%3A38.545Z, i:measurement_power_2_2023-03-10T09%3A29%3A36.545Z, i:measurement_power_2_2023-03-10T09%3A29%3A29.549Z, i:measurement_power_2_2023-03-10T09%3A29%3A25.552Z, i:measurement_power_2_2023-03-10T09%3A29%3A16.556Z, i:measurement_power_2_2023-03-10T09%3A29%3A14.557Z, i:measurement_power_2_2023-03-10T09%3A29%3A10.560Z, i:measurement_power_2_2023-03-10T09%3A29%3A10.318Z, i:measurement_power_2_2023-03-10T09%3A29%3A02.568Z, i:measurement_power_2_2023-03-10T09%3A29%3A00.945Z, i:measurement_power_2_2023-03-10T09%3A28%3A59.566Z, i:measurement_power_2_2023-03-10T09%3A28%3A52.570Z, i:measurement_power_2_2023-03-10T09%3A28%3A50.572Z, i:measurement_power_2_2023-03-10T09%3A28%3A48.572Z, i:measurement_power_2_2023-03-10T09%3A28%3A40.312Z, i:measurement_power_2_2023-03-10T09%3A28%3A37.577Z, i:measurement_power_2_2023-03-10T09%3A28%3A35.578Z, i:measurement_power_2_2023-03-10T09%3A28%3A24.582Z, i:measurement_power_2_2023-03-10T09%3A28%3A22.583Z, i:measurement_power_2_2023-03-10T09%3A28%3A16.589Z, i:measurement_power_2_2023-03-10T09%3A28%3A12.589Z, i:measurement_power_2_2023-03-10T09%3A28%3A10.304Z, i:measurement_power_2_2023-03-10T09%3A28%3A08.589Z, i:measurement_power_2_2023-03-10T09%3A27%3A59.592Z, i:measurement_power_2_2023-03-10T09%3A27%3A56.594Z, i:measurement_power_2_2023-03-10T09%3A27%3A46.597Z, i:measurement_power_2_2023-03-10T09%3A27%3A45.695Z .
+
+i:measurement_energy_0_2023-03-10T09%3A30%3A01.897Z rdf:type bigg:Measurement ;
+	bigg:value "816" ;
+	bigg:start "2023-03-10T09:30:01.897Z" .
+
+i:measurement_energy_0_2023-03-10T09%3A29%3A00.892Z rdf:type bigg:Measurement ;
+	bigg:value "568" ;
+	bigg:start "2023-03-10T09:29:00.892Z" .
+
+i:measurement_energy_0_2023-03-10T09%3A28%3A00.969Z rdf:type bigg:Measurement ;
+	bigg:value "701" ;
+	bigg:start "2023-03-10T09:28:00.969Z" .
+
+i:measurement_energy_1_2023-03-10T09%3A30%3A01.897Z rdf:type bigg:Measurement ;
+	bigg:value "75" ;
+	bigg:start "2023-03-10T09:30:01.897Z" .
+
+i:measurement_energy_1_2023-03-10T09%3A29%3A00.892Z rdf:type bigg:Measurement ;
+	bigg:value "61" ;
+	bigg:start "2023-03-10T09:29:00.892Z" .
+
+i:measurement_energy_1_2023-03-10T09%3A28%3A00.969Z rdf:type bigg:Measurement ;
+	bigg:value "61" ;
+	bigg:start "2023-03-10T09:28:00.969Z" .
+
+i:measurement_energy_2_2023-03-10T09%3A30%3A00.675Z rdf:type bigg:Measurement ;
+	bigg:value "2084" ;
+	bigg:start "2023-03-10T09:30:00.675Z" .
+
+i:measurement_energy_2_2023-03-10T09%3A29%3A00.892Z rdf:type bigg:Measurement ;
+	bigg:value "2058" ;
+	bigg:start "2023-03-10T09:29:00.892Z" .
+
+i:measurement_energy_2_2023-03-10T09%3A28%3A00.970Z rdf:type bigg:Measurement ;
+	bigg:value "2050" ;
+	bigg:start "2023-03-10T09:28:00.970Z" .
+
+i:measurement_power_0_2023-03-10T09%3A30%3A40.340Z rdf:type bigg:Measurement ;
+	bigg:value "1380.19" ;
+	bigg:start "2023-03-10T09:30:40.340Z" .
+
+i:measurement_power_0_2023-03-10T09%3A30%3A33.519Z rdf:type bigg:Measurement ;
+	bigg:value "1387.8" ;
+	bigg:start "2023-03-10T09:30:33.519Z" .
+
+i:measurement_power_0_2023-03-10T09%3A30%3A29.520Z rdf:type bigg:Measurement ;
+	bigg:value "1346.84" ;
+	bigg:start "2023-03-10T09:30:29.520Z" .
+
+i:measurement_power_0_2023-03-10T09%3A30%3A21.523Z rdf:type bigg:Measurement ;
+	bigg:value "1353.04" ;
+	bigg:start "2023-03-10T09:30:21.523Z" .
+
+i:measurement_power_0_2023-03-10T09%3A30%3A17.523Z rdf:type bigg:Measurement ;
+	bigg:value "1353.01" ;
+	bigg:start "2023-03-10T09:30:17.523Z" .
+
+i:measurement_power_0_2023-03-10T09%3A30%3A11.524Z rdf:type bigg:Measurement ;
+	bigg:value "1355.11" ;
+	bigg:start "2023-03-10T09:30:11.524Z" .
+
+i:measurement_power_0_2023-03-10T09%3A30%3A10.332Z rdf:type bigg:Measurement ;
+	bigg:value "68.03" ;
+	bigg:start "2023-03-10T09:30:10.332Z" .
+
+i:measurement_power_0_2023-03-10T09%3A30%3A07.526Z rdf:type bigg:Measurement ;
+	bigg:value "67.92" ;
+	bigg:start "2023-03-10T09:30:07.526Z" .
+
+i:measurement_power_0_2023-03-10T09%3A30%3A05.528Z rdf:type bigg:Measurement ;
+	bigg:value "67.94" ;
+	bigg:start "2023-03-10T09:30:05.528Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A54.535Z rdf:type bigg:Measurement ;
+	bigg:value "67.73" ;
+	bigg:start "2023-03-10T09:29:54.535Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A52.546Z rdf:type bigg:Measurement ;
+	bigg:value "67.86" ;
+	bigg:start "2023-03-10T09:29:52.546Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A42.542Z rdf:type bigg:Measurement ;
+	bigg:value "67.89" ;
+	bigg:start "2023-03-10T09:29:42.542Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A40.326Z rdf:type bigg:Measurement ;
+	bigg:value "68.12" ;
+	bigg:start "2023-03-10T09:29:40.326Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A38.545Z rdf:type bigg:Measurement ;
+	bigg:value "67.94" ;
+	bigg:start "2023-03-10T09:29:38.545Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A36.545Z rdf:type bigg:Measurement ;
+	bigg:value "67.8" ;
+	bigg:start "2023-03-10T09:29:36.545Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A29.549Z rdf:type bigg:Measurement ;
+	bigg:value "1372.7" ;
+	bigg:start "2023-03-10T09:29:29.549Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A25.552Z rdf:type bigg:Measurement ;
+	bigg:value "1372.18" ;
+	bigg:start "2023-03-10T09:29:25.552Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A16.556Z rdf:type bigg:Measurement ;
+	bigg:value "1378.64" ;
+	bigg:start "2023-03-10T09:29:16.556Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A14.557Z rdf:type bigg:Measurement ;
+	bigg:value "1387.08" ;
+	bigg:start "2023-03-10T09:29:14.557Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A10.560Z rdf:type bigg:Measurement ;
+	bigg:value "1348.5" ;
+	bigg:start "2023-03-10T09:29:10.560Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A10.317Z rdf:type bigg:Measurement ;
+	bigg:value "1348.03" ;
+	bigg:start "2023-03-10T09:29:10.317Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A02.567Z rdf:type bigg:Measurement ;
+	bigg:value "1344.14" ;
+	bigg:start "2023-03-10T09:29:02.567Z" .
+
+i:measurement_power_0_2023-03-10T09%3A29%3A00.945Z rdf:type bigg:Measurement ;
+	bigg:value "1346.22" ;
+	bigg:start "2023-03-10T09:29:00.945Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A59.565Z rdf:type bigg:Measurement ;
+	bigg:value "1348.83" ;
+	bigg:start "2023-03-10T09:28:59.565Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A52.569Z rdf:type bigg:Measurement ;
+	bigg:value "1352.56" ;
+	bigg:start "2023-03-10T09:28:52.569Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A50.570Z rdf:type bigg:Measurement ;
+	bigg:value "67.92" ;
+	bigg:start "2023-03-10T09:28:50.570Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A48.572Z rdf:type bigg:Measurement ;
+	bigg:value "67.72" ;
+	bigg:start "2023-03-10T09:28:48.572Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A40.311Z rdf:type bigg:Measurement ;
+	bigg:value "67.8" ;
+	bigg:start "2023-03-10T09:28:40.311Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A37.576Z rdf:type bigg:Measurement ;
+	bigg:value "67.83" ;
+	bigg:start "2023-03-10T09:28:37.576Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A35.578Z rdf:type bigg:Measurement ;
+	bigg:value "67.96" ;
+	bigg:start "2023-03-10T09:28:35.578Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A24.582Z rdf:type bigg:Measurement ;
+	bigg:value "67.7" ;
+	bigg:start "2023-03-10T09:28:24.582Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A22.583Z rdf:type bigg:Measurement ;
+	bigg:value "67.78" ;
+	bigg:start "2023-03-10T09:28:22.583Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A16.589Z rdf:type bigg:Measurement ;
+	bigg:value "67.82" ;
+	bigg:start "2023-03-10T09:28:16.589Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A12.588Z rdf:type bigg:Measurement ;
+	bigg:value "1380.19" ;
+	bigg:start "2023-03-10T09:28:12.588Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A10.303Z rdf:type bigg:Measurement ;
+	bigg:value "1378.06" ;
+	bigg:start "2023-03-10T09:28:10.303Z" .
+
+i:measurement_power_0_2023-03-10T09%3A28%3A08.588Z rdf:type bigg:Measurement ;
+	bigg:value "1376.32" ;
+	bigg:start "2023-03-10T09:28:08.588Z" .
+
+i:measurement_power_0_2023-03-10T09%3A27%3A59.591Z rdf:type bigg:Measurement ;
+	bigg:value "1381.36" ;
+	bigg:start "2023-03-10T09:27:59.591Z" .
+
+i:measurement_power_0_2023-03-10T09%3A27%3A56.594Z rdf:type bigg:Measurement ;
+	bigg:value "1382.77" ;
+	bigg:start "2023-03-10T09:27:56.594Z" .
+
+i:measurement_power_0_2023-03-10T09%3A27%3A46.597Z rdf:type bigg:Measurement ;
+	bigg:value "1347.33" ;
+	bigg:start "2023-03-10T09:27:46.597Z" .
+
+i:measurement_power_0_2023-03-10T09%3A27%3A45.694Z rdf:type bigg:Measurement ;
+	bigg:value "1348.96" ;
+	bigg:start "2023-03-10T09:27:45.694Z" .
+
+i:measurement_power_1_2023-03-10T09%3A30%3A40.340Z rdf:type bigg:Measurement ;
+	bigg:value "74.94" ;
+	bigg:start "2023-03-10T09:30:40.340Z" .
+
+i:measurement_power_1_2023-03-10T09%3A30%3A33.519Z rdf:type bigg:Measurement ;
+	bigg:value "76.49" ;
+	bigg:start "2023-03-10T09:30:33.519Z" .
+
+i:measurement_power_1_2023-03-10T09%3A30%3A29.521Z rdf:type bigg:Measurement ;
+	bigg:value "69.89" ;
+	bigg:start "2023-03-10T09:30:29.521Z" .
+
+i:measurement_power_1_2023-03-10T09%3A30%3A21.523Z rdf:type bigg:Measurement ;
+	bigg:value "76.28" ;
+	bigg:start "2023-03-10T09:30:21.523Z" .
+
+i:measurement_power_1_2023-03-10T09%3A30%3A17.523Z rdf:type bigg:Measurement ;
+	bigg:value "71.02" ;
+	bigg:start "2023-03-10T09:30:17.523Z" .
+
+i:measurement_power_1_2023-03-10T09%3A30%3A11.525Z rdf:type bigg:Measurement ;
+	bigg:value "75.64" ;
+	bigg:start "2023-03-10T09:30:11.525Z" .
+
+i:measurement_power_1_2023-03-10T09%3A30%3A10.332Z rdf:type bigg:Measurement ;
+	bigg:value "76.82" ;
+	bigg:start "2023-03-10T09:30:10.332Z" .
+
+i:measurement_power_1_2023-03-10T09%3A30%3A07.526Z rdf:type bigg:Measurement ;
+	bigg:value "77.62" ;
+	bigg:start "2023-03-10T09:30:07.526Z" .
+
+i:measurement_power_1_2023-03-10T09%3A30%3A05.529Z rdf:type bigg:Measurement ;
+	bigg:value "70.84" ;
+	bigg:start "2023-03-10T09:30:05.529Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A54.535Z rdf:type bigg:Measurement ;
+	bigg:value "77.38" ;
+	bigg:start "2023-03-10T09:29:54.535Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A52.546Z rdf:type bigg:Measurement ;
+	bigg:value "71.05" ;
+	bigg:start "2023-03-10T09:29:52.546Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A42.542Z rdf:type bigg:Measurement ;
+	bigg:value "77.71" ;
+	bigg:start "2023-03-10T09:29:42.542Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A40.327Z rdf:type bigg:Measurement ;
+	bigg:value "70.91" ;
+	bigg:start "2023-03-10T09:29:40.327Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A38.545Z rdf:type bigg:Measurement ;
+	bigg:value "71.57" ;
+	bigg:start "2023-03-10T09:29:38.545Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A36.545Z rdf:type bigg:Measurement ;
+	bigg:value "76.48" ;
+	bigg:start "2023-03-10T09:29:36.545Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A29.549Z rdf:type bigg:Measurement ;
+	bigg:value "78.18" ;
+	bigg:start "2023-03-10T09:29:29.549Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A25.552Z rdf:type bigg:Measurement ;
+	bigg:value "71.26" ;
+	bigg:start "2023-03-10T09:29:25.552Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A16.556Z rdf:type bigg:Measurement ;
+	bigg:value "78.14" ;
+	bigg:start "2023-03-10T09:29:16.556Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A14.557Z rdf:type bigg:Measurement ;
+	bigg:value "71.52" ;
+	bigg:start "2023-03-10T09:29:14.557Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A10.560Z rdf:type bigg:Measurement ;
+	bigg:value "76.73" ;
+	bigg:start "2023-03-10T09:29:10.560Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A10.317Z rdf:type bigg:Measurement ;
+	bigg:value "77.05" ;
+	bigg:start "2023-03-10T09:29:10.317Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A02.567Z rdf:type bigg:Measurement ;
+	bigg:value "62.56" ;
+	bigg:start "2023-03-10T09:29:02.567Z" .
+
+i:measurement_power_1_2023-03-10T09%3A29%3A00.945Z rdf:type bigg:Measurement ;
+	bigg:value "55.56" ;
+	bigg:start "2023-03-10T09:29:00.945Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A59.566Z rdf:type bigg:Measurement ;
+	bigg:value "59.23" ;
+	bigg:start "2023-03-10T09:28:59.566Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A52.570Z rdf:type bigg:Measurement ;
+	bigg:value "61.48" ;
+	bigg:start "2023-03-10T09:28:52.570Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A50.570Z rdf:type bigg:Measurement ;
+	bigg:value "63.59" ;
+	bigg:start "2023-03-10T09:28:50.570Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A48.572Z rdf:type bigg:Measurement ;
+	bigg:value "56.73" ;
+	bigg:start "2023-03-10T09:28:48.572Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A40.311Z rdf:type bigg:Measurement ;
+	bigg:value "62.58" ;
+	bigg:start "2023-03-10T09:28:40.311Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A37.576Z rdf:type bigg:Measurement ;
+	bigg:value "63.51" ;
+	bigg:start "2023-03-10T09:28:37.576Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A35.578Z rdf:type bigg:Measurement ;
+	bigg:value "56.06" ;
+	bigg:start "2023-03-10T09:28:35.578Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A24.582Z rdf:type bigg:Measurement ;
+	bigg:value "63.97" ;
+	bigg:start "2023-03-10T09:28:24.582Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A22.583Z rdf:type bigg:Measurement ;
+	bigg:value "56.81" ;
+	bigg:start "2023-03-10T09:28:22.583Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A16.589Z rdf:type bigg:Measurement ;
+	bigg:value "62.45" ;
+	bigg:start "2023-03-10T09:28:16.589Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A12.589Z rdf:type bigg:Measurement ;
+	bigg:value "62.37" ;
+	bigg:start "2023-03-10T09:28:12.589Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A10.303Z rdf:type bigg:Measurement ;
+	bigg:value "55.43" ;
+	bigg:start "2023-03-10T09:28:10.303Z" .
+
+i:measurement_power_1_2023-03-10T09%3A28%3A08.588Z rdf:type bigg:Measurement ;
+	bigg:value "55.49" ;
+	bigg:start "2023-03-10T09:28:08.588Z" .
+
+i:measurement_power_1_2023-03-10T09%3A27%3A59.591Z rdf:type bigg:Measurement ;
+	bigg:value "62.35" ;
+	bigg:start "2023-03-10T09:27:59.591Z" .
+
+i:measurement_power_1_2023-03-10T09%3A27%3A56.594Z rdf:type bigg:Measurement ;
+	bigg:value "55.49" ;
+	bigg:start "2023-03-10T09:27:56.594Z" .
+
+i:measurement_power_1_2023-03-10T09%3A27%3A46.597Z rdf:type bigg:Measurement ;
+	bigg:value "62.49" ;
+	bigg:start "2023-03-10T09:27:46.597Z" .
+
+i:measurement_power_1_2023-03-10T09%3A27%3A45.695Z rdf:type bigg:Measurement ;
+	bigg:value "55.39" ;
+	bigg:start "2023-03-10T09:27:45.695Z" .
+
+i:measurement_power_2_2023-03-10T09%3A30%3A40.340Z rdf:type bigg:Measurement ;
+	bigg:value "2082.86" ;
+	bigg:start "2023-03-10T09:30:40.340Z" .
+
+i:measurement_power_2_2023-03-10T09%3A30%3A33.520Z rdf:type bigg:Measurement ;
+	bigg:value "2084.37" ;
+	bigg:start "2023-03-10T09:30:33.520Z" .
+
+i:measurement_power_2_2023-03-10T09%3A30%3A29.521Z rdf:type bigg:Measurement ;
+	bigg:value "2083.83" ;
+	bigg:start "2023-03-10T09:30:29.521Z" .
+
+i:measurement_power_2_2023-03-10T09%3A30%3A21.523Z rdf:type bigg:Measurement ;
+	bigg:value "2086.62" ;
+	bigg:start "2023-03-10T09:30:21.523Z" .
+
+i:measurement_power_2_2023-03-10T09%3A30%3A17.523Z rdf:type bigg:Measurement ;
+	bigg:value "2084.96" ;
+	bigg:start "2023-03-10T09:30:17.523Z" .
+
+i:measurement_power_2_2023-03-10T09%3A30%3A11.525Z rdf:type bigg:Measurement ;
+	bigg:value "2085.24" ;
+	bigg:start "2023-03-10T09:30:11.525Z" .
+
+i:measurement_power_2_2023-03-10T09%3A30%3A10.333Z rdf:type bigg:Measurement ;
+	bigg:value "2088.46" ;
+	bigg:start "2023-03-10T09:30:10.333Z" .
+
+i:measurement_power_2_2023-03-10T09%3A30%3A07.527Z rdf:type bigg:Measurement ;
+	bigg:value "2089.52" ;
+	bigg:start "2023-03-10T09:30:07.527Z" .
+
+i:measurement_power_2_2023-03-10T09%3A30%3A05.529Z rdf:type bigg:Measurement ;
+	bigg:value "2089.61" ;
+	bigg:start "2023-03-10T09:30:05.529Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A54.535Z rdf:type bigg:Measurement ;
+	bigg:value "2095.87" ;
+	bigg:start "2023-03-10T09:29:54.535Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A52.546Z rdf:type bigg:Measurement ;
+	bigg:value "2092.58" ;
+	bigg:start "2023-03-10T09:29:52.546Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A42.542Z rdf:type bigg:Measurement ;
+	bigg:value "2093.47" ;
+	bigg:start "2023-03-10T09:29:42.542Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A40.327Z rdf:type bigg:Measurement ;
+	bigg:value "2045.79" ;
+	bigg:start "2023-03-10T09:29:40.327Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A38.545Z rdf:type bigg:Measurement ;
+	bigg:value "2043.99" ;
+	bigg:start "2023-03-10T09:29:38.545Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A36.545Z rdf:type bigg:Measurement ;
+	bigg:value "2042.52" ;
+	bigg:start "2023-03-10T09:29:36.545Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A29.549Z rdf:type bigg:Measurement ;
+	bigg:value "2086.26" ;
+	bigg:start "2023-03-10T09:29:29.549Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A25.552Z rdf:type bigg:Measurement ;
+	bigg:value "2078.55" ;
+	bigg:start "2023-03-10T09:29:25.552Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A16.556Z rdf:type bigg:Measurement ;
+	bigg:value "2084.78" ;
+	bigg:start "2023-03-10T09:29:16.556Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A14.557Z rdf:type bigg:Measurement ;
+	bigg:value "2096.95" ;
+	bigg:start "2023-03-10T09:29:14.557Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A10.560Z rdf:type bigg:Measurement ;
+	bigg:value "2095.51" ;
+	bigg:start "2023-03-10T09:29:10.560Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A10.318Z rdf:type bigg:Measurement ;
+	bigg:value "2094.43" ;
+	bigg:start "2023-03-10T09:29:10.318Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A02.568Z rdf:type bigg:Measurement ;
+	bigg:value "2091.65" ;
+	bigg:start "2023-03-10T09:29:02.568Z" .
+
+i:measurement_power_2_2023-03-10T09%3A29%3A00.945Z rdf:type bigg:Measurement ;
+	bigg:value "2091.11" ;
+	bigg:start "2023-03-10T09:29:00.945Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A59.566Z rdf:type bigg:Measurement ;
+	bigg:value "2088.93" ;
+	bigg:start "2023-03-10T09:28:59.566Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A52.570Z rdf:type bigg:Measurement ;
+	bigg:value "2088.07" ;
+	bigg:start "2023-03-10T09:28:52.570Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A50.572Z rdf:type bigg:Measurement ;
+	bigg:value "2083.16" ;
+	bigg:start "2023-03-10T09:28:50.572Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A48.572Z rdf:type bigg:Measurement ;
+	bigg:value "2086.49" ;
+	bigg:start "2023-03-10T09:28:48.572Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A40.312Z rdf:type bigg:Measurement ;
+	bigg:value "2053.74" ;
+	bigg:start "2023-03-10T09:28:40.312Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A37.577Z rdf:type bigg:Measurement ;
+	bigg:value "2059.27" ;
+	bigg:start "2023-03-10T09:28:37.577Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A35.578Z rdf:type bigg:Measurement ;
+	bigg:value "2058.83" ;
+	bigg:start "2023-03-10T09:28:35.578Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A24.582Z rdf:type bigg:Measurement ;
+	bigg:value "2055.83" ;
+	bigg:start "2023-03-10T09:28:24.582Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A22.583Z rdf:type bigg:Measurement ;
+	bigg:value "2062.82" ;
+	bigg:start "2023-03-10T09:28:22.583Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A16.589Z rdf:type bigg:Measurement ;
+	bigg:value "2047.34" ;
+	bigg:start "2023-03-10T09:28:16.589Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A12.589Z rdf:type bigg:Measurement ;
+	bigg:value "2046.8" ;
+	bigg:start "2023-03-10T09:28:12.589Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A10.304Z rdf:type bigg:Measurement ;
+	bigg:value "2047.08" ;
+	bigg:start "2023-03-10T09:28:10.304Z" .
+
+i:measurement_power_2_2023-03-10T09%3A28%3A08.589Z rdf:type bigg:Measurement ;
+	bigg:value "2047.06" ;
+	bigg:start "2023-03-10T09:28:08.589Z" .
+
+i:measurement_power_2_2023-03-10T09%3A27%3A59.592Z rdf:type bigg:Measurement ;
+	bigg:value "2045.51" ;
+	bigg:start "2023-03-10T09:27:59.592Z" .
+
+i:measurement_power_2_2023-03-10T09%3A27%3A56.594Z rdf:type bigg:Measurement ;
+	bigg:value "2049.75" ;
+	bigg:start "2023-03-10T09:27:56.594Z" .
+
+i:measurement_power_2_2023-03-10T09%3A27%3A46.597Z rdf:type bigg:Measurement ;
+	bigg:value "2056.06" ;
+	bigg:start "2023-03-10T09:27:46.597Z" .
+
+i:measurement_power_2_2023-03-10T09%3A27%3A45.695Z rdf:type bigg:Measurement ;
+	bigg:value "2051.49" ;
+	bigg:start "2023-03-10T09:27:45.695Z" .
+

@@ -1,0 +1,22 @@
+[
+    {
+        "deviceid":"domxmotionsensor-60A423992494",
+        "time": "2023-03-10T14:10:59.133Z",
+        "motion": 1
+    },
+    {
+        "deviceid":"domxmotionsensor-60A423992494",
+        "time": "2023-03-10T14:20:36.488Z",
+        "motion": 0
+    },
+    {
+        "deviceid":"domxmotionsensor-60A423992494",
+        "time": "2023-03-10T14:31:27.186Z",
+        "motion": 1
+    },
+    {
+        "deviceid":"domxmotionsensor-60A423992494",
+        "time": "2023-03-10T14:43:36.069Z",
+        "motion": 0
+    }
+]

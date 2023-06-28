@@ -1,0 +1,67 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bigg: <http://bigg-project.eu/> .
+@prefix i: <http://bigg-project.eu/instances/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+
+i:device_shellyplug-s-C1AE2F rdf:type bigg:Device ;
+	bigg:hasSensor i:sensor_power_0 .
+
+i:sensor_power_0 rdf:type bigg:Sensor ;
+	bigg:hasMeasurement i:measurement_power_0_2023-01-17T09%3A07%3A29.877Z, i:measurement_power_0_2023-01-17T09%3A06%3A59.872Z, i:measurement_power_0_2023-01-17T09%3A06%3A29.869Z, i:measurement_power_0_2023-01-17T09%3A05%3A59.866Z, i:measurement_power_0_2023-01-17T09%3A05%3A29.863Z, i:measurement_power_0_2023-01-17T09%3A04%3A59.858Z, i:measurement_power_0_2023-01-17T09%3A04%3A29.850Z, i:measurement_power_0_2023-01-17T09%3A03%3A59.857Z, i:measurement_power_0_2023-01-17T09%3A03%3A29.841Z, i:measurement_power_0_2023-01-17T09%3A02%3A59.837Z, i:measurement_power_0_2023-01-17T09%3A02%3A29.832Z, i:measurement_power_0_2023-01-17T09%3A01%3A59.828Z, i:measurement_power_0_2023-01-17T09%3A01%3A29.823Z, i:measurement_power_0_2023-01-17T09%3A00%3A59.819Z .
+
+i:measurement_power_0_2023-01-17T09%3A07%3A29.877Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:07:29.877Z" .
+
+i:measurement_power_0_2023-01-17T09%3A06%3A59.872Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:06:59.872Z" .
+
+i:measurement_power_0_2023-01-17T09%3A06%3A29.869Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:06:29.869Z" .
+
+i:measurement_power_0_2023-01-17T09%3A05%3A59.866Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:05:59.866Z" .
+
+i:measurement_power_0_2023-01-17T09%3A05%3A29.863Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:05:29.863Z" .
+
+i:measurement_power_0_2023-01-17T09%3A04%3A59.858Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:04:59.858Z" .
+
+i:measurement_power_0_2023-01-17T09%3A04%3A29.850Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:04:29.850Z" .
+
+i:measurement_power_0_2023-01-17T09%3A03%3A59.857Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:03:59.857Z" .
+
+i:measurement_power_0_2023-01-17T09%3A03%3A29.841Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:03:29.841Z" .
+
+i:measurement_power_0_2023-01-17T09%3A02%3A59.837Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:02:59.837Z" .
+
+i:measurement_power_0_2023-01-17T09%3A02%3A29.832Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:02:29.832Z" .
+
+i:measurement_power_0_2023-01-17T09%3A01%3A59.828Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:01:59.828Z" .
+
+i:measurement_power_0_2023-01-17T09%3A01%3A29.823Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:01:29.823Z" .
+
+i:measurement_power_0_2023-01-17T09%3A00%3A59.819Z rdf:type bigg:Measurement ;
+	bigg:value "0" ;
+	bigg:start "2023-01-17T09:00:59.819Z" .
+

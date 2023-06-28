@@ -1,0 +1,34 @@
+prefixes:
+ bigg: "http://bigg-project.eu/"
+ i: "http://bigg-project.eu/instances/"
+ grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
+ 
+sources:
+    data:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$.[*]"
+
+mappings:
+  device:
+    source: data
+    s: i:device_$(deviceid)
+    po:
+      - [a, bigg:Device]
+      - [bigg:hasSensor, i:sensor_motion~iri]
+
+  sensor_m:
+    source: data
+    s: i:sensor_motion
+    po:
+      - [a, bigg:Sensor]
+      - p: bigg:hasMeasurement
+        o: i:measurement_motion_$(time)~iri
+ 
+  measurement_m:
+    source: data
+    s: i:measurement_motion_$(time)
+    po:
+      - [a, bigg:Measurement]
+      - [bigg:value, $(motion)]
+      - [bigg:start, $(time)]

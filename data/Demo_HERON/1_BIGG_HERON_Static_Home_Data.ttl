@@ -1,0 +1,52 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bigg: <http://bigg-project.eu/> .
+@prefix i: <http://bigg-project.eu/instances/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+
+i:buildingSpace_39 rdf:type bigg:BuildingSpace ;
+	bigg:buildingSpaceName "building_39" ;
+	bigg:hasArea "107" ;
+	bigg:hasOccupencyProfile i:occupancyProfile_building_39 ;
+	bigg:isAssociatedWithElement i:device_domxem3-ECFABCC7F071, i:device_domxplug-2842FB, i:device_shellyplug-s-C1AE2F, i:device_domxmotionsensor-60A423992494 .
+
+i:building_39 rdf:type bigg:Building ;
+	bigg:buildingName "building_39" ;
+	bigg:hasLocationInfo i:locationInfo_building_39 ;
+	bigg:hasSpace i:buildingSpace_39 .
+
+i:locationInfo_building_39 rdf:type bigg:LocationInfo ;
+	bigg:adressLatitude "40.6039822" ;
+	bigg:adressLongitude "22.9502155" ;
+	bigg:hasAddressClimateZone "GRC_A" .
+
+i:occupancyProfile_building_39 rdf:type bigg:OccupancyProfile ;
+	bigg:occupancyNumberOfOccupants "2" .
+
+i:deviceType_2 rdf:type bigg:DeviceType ;
+	bigg:deviceTypeName "3-phase EM_METER" .
+
+i:deviceType_4 rdf:type bigg:DeviceType ;
+	bigg:deviceTypeName "Smart Plug" .
+
+i:deviceType_5 rdf:type bigg:DeviceType ;
+	bigg:deviceTypeName "Smart Plug S" .
+
+i:deviceType_6 rdf:type bigg:DeviceType ;
+	bigg:deviceTypeName "Motion Sensor" .
+
+i:device_domxem3-ECFABCC7F071 rdf:type bigg:Device ;
+	bigg:deviceIDFromOrganization "domxem3-ECFABCC7F071" ;
+	bigg:hasDeviceType i:deviceType_2 .
+
+i:device_domxplug-2842FB rdf:type bigg:Device ;
+	bigg:deviceIDFromOrganization "domxplug-2842FB" ;
+	bigg:hasDeviceType i:deviceType_4 .
+
+i:device_shellyplug-s-C1AE2F rdf:type bigg:Device ;
+	bigg:deviceIDFromOrganization "shellyplug-s-C1AE2F" ;
+	bigg:hasDeviceType i:deviceType_5 .
+
+i:device_domxmotionsensor-60A423992494 rdf:type bigg:Device ;
+	bigg:deviceIDFromOrganization "domxmotionsensor-60A423992494" ;
+	bigg:hasDeviceType i:deviceType_6 .
+

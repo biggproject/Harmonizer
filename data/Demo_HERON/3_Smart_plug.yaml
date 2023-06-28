@@ -1,0 +1,61 @@
+prefixes:
+ bigg: "http://bigg-project.eu/"
+ i: "http://bigg-project.eu/instances/"
+ grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
+ 
+sources:
+    data_s:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$"
+
+    data_e0:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$.energy.0[*]"
+
+    data_p0:
+        access: data.json
+        referenceFormulation: jsonpath
+        iterator: "$.power.0[*]"
+
+mappings:
+  device:
+    source: data_s
+    s: i:device_$(deviceid)
+    po:
+      - [a, bigg:Device]
+      - [bigg:hasSensor, i:sensor_energy_0~iri]
+      - [bigg:hasSensor, i:sensor_power_0~iri]
+
+  sensor_e_0:
+    source: data_s
+    s: i:sensor_energy_0
+    po:
+      - [a, bigg:Sensor]
+      - p: bigg:hasMeasurement
+        o: i:measurement_energy_0_$(energy.0[*].time)~iri
+
+  sensor_p_0:
+    source: data_s
+    s: i:sensor_power_0
+    po:
+      - [a, bigg:Sensor]
+      - p: bigg:hasMeasurement
+        o: i:measurement_power_0_$(power.0[*].time)~iri
+ 
+  measurement_e_0:
+    source: data_e0
+    s: i:measurement_energy_0_$(time)
+    po:
+      - [a, bigg:Measurement]
+      - [bigg:value, $(value)]
+      - [bigg:start, $(time)]
+
+  measurement_p_0:
+    source: data_p0
+    s: i:measurement_power_0_$(time)
+    po:
+      - [a, bigg:Measurement]
+      - [bigg:value, $(value)]
+      - [bigg:start, $(time)]
