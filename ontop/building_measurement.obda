@@ -1,0 +1,37 @@
+[PrefixDeclaration]
+:		http://example.org/voc#
+owl:		http://www.w3.org/2002/07/owl#
+rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xml:		http://www.w3.org/XML/1998/namespace
+xsd:		http://www.w3.org/2001/XMLSchema#
+bigg:		http://bigg-project.eu/
+foaf:		http://xmlns.com/foaf/0.1/
+obda:		https://w3id.org/obda/vocabulary#
+rdfs:		http://www.w3.org/2000/01/rdf-schema#
+
+[MappingDeclaration] @collection [[
+mappingId	building_measurement-company
+target		bigg:building_measurement/Company/{id} a bigg:Company ; bigg:name {name}^^xsd:string . 
+source		SELECT * FROM "company"
+
+mappingId	building_measurement-site
+target		bigg:building_measurement/Site/{id} a bigg:Site ; bigg:name {name}^^xsd:string . 
+source		SELECT * FROM "site"
+
+mappingId	building_measurement-zone
+target		bigg:building_measurement/Zone/{id} a bigg:Zone ; bigg:name {name}^^xsd:string . 
+source		SELECT * FROM "zone"
+
+mappingId	building_measurement-building
+target		bigg:building_measurement/Building/{id} a bigg:Building ; bigg:name {name}^^xsd:string . 
+source		SELECT * FROM "building"
+
+mappingId	building_measurement-building-space
+target		bigg:building_measurement/BuildingSpace/{id} a bigg:BuildingSpace ; bigg:name {name}^^xsd:string . 
+source		SELECT * FROM "building_space"
+
+mappingId	building_measurement-sensor
+target		bigg:building_measurement/Sensor/{id} a bigg:Sensor ; bigg:name {name}^^xsd:string . 
+source		SELECT * FROM "sensor"
+]]
+
