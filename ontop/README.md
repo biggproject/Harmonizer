@@ -1,5 +1,7 @@
 ## BiGG Ontop Demo- Done By CSTB
+
 ***OBJECTIVE***
+
 The objective of this application is to demonstrate the ONTOP library which allows you to implement the transition from a relational data model to a graph data model.
 Ontop is an open source OBDA( ONTOLOGY BASED DATA ACCESS) framewok supports all of the main W3C recommandations: OWL, R2RML, SPARQL, SWRL etc...
 on the one hand, on the other hand it supports  the major of relational database that  implements SQL 99 like MYSQL, PROSTRESQL, ORACLE, MS SQL SERVER etc...
