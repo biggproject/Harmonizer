@@ -26,12 +26,12 @@ The Framework has four keys concepts:
 
 The description below shows the implementation of our relational data model. The model contains these tables:
 
-  1. Company
-  2. Site
-  3. Building
-  4. Zone
-  5. Building_Space
-  6. Sensor
+  1. Company: This table represents an organisation
+  2. Site : A tuple of this table represents a company geographical location
+  3. Building : A  tuple of this table represents  a building of a specific site
+  4. Zone: A zone represents a floor of a building
+  5. Building_Space: The building space represents a physical position of a zone like a desk or something else
+  6. Sensor : The sensor collects the measurement points from different spaces in the building
      
 Each table has two mains fields: a name, an identifier (the primary key). The Site table contains a foreign key reference towards the Company, Building  references the Site, Zone references Building,  Building_Space references Zone and Sensor references Building_Space.
 
