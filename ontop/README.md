@@ -53,20 +53,20 @@ B. Configure the Data Source properties:
      2. Go to Protege Web Interface: File -> Preferences -> JDBC Drivers
      3. Browse to select the driver  Class
      4. Go to Window -> Tabs -> Onto Mappings -> Connector Parameters
-          1. Connection Url : jdbc\:postgresql\://localhost\:5432/building_measurement
-          2. Database Username: XXXX
-          3. Database Password: XXXX
-          4. JDBC Driver Class: org.postgresql.Driver
+          a. Connection Url : jdbc\:postgresql\://localhost\:5432/building_measurement
+          b. Database Username: XXXX
+          c. Database Password: XXXX
+          d. JDBC Driver Class: org.postgresql.Driver
 
 C . Load the TTL File
 
      1. Go to file -> Open -> building_measurement.ttl
-     3. Start the reasoner
+     2. Start the reasoner
           a. Go to Reasoner -> Start Reasoner
-     4.  Go to Window -> Tabs -> Onto Mappings
+     3.  Go to Window -> Tabs -> Onto Mappings
           a. Double click on mapping Editor to edit a triple to see target and source:
           
           For Example
           Target: bigg:building_measurement/Company/{id} a bigg:Company ; bigg:name {name}^^xsd:string . 
           Source: SELECT * FROM "company"
-     5. Excute the Sql Query to see the result.
+     4. Excute the Sql Query to see the result.
