@@ -36,6 +36,7 @@ The description below shows the implementation of our relational data model. The
 Each table has two mains fields: a name, an identifier (the primary key). The Site table contains a foreign key reference towards the Company, Building  references the Site, Zone references Building,  Building_Space references Zone and Sensor references Building_Space.
 
 ***User Guide***
+
 In order to run this demo,  you should have these prerequisites:
 
   1. Install Ontop Protégé Bundle : https://sourceforge.net/projects/ontop4obda/files
