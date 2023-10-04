@@ -2,7 +2,7 @@
 
 ***OBJECTIVE***
 
-The objective of this application is to demonstrate the ONTOP library which allows you to implement the transition from a relational data model to a graph data model.
+The objective of this application is to demonstrate the usage of the ONTOP library which allows you to implement the transition from a relational data model to a chart data model.
 Ontop is an open source OBDA( ONTOLOGY BASED DATA ACCESS) framework supports all of the main W3C recommandations: OWL, R2RML, SPARQL, SWRL etc...
 on the one hand, on the other hand it supports  the major of relational database that  implements SQL 99 like MYSQL, PROSTRESQL, ORACLE, MS SQL SERVER etc...
 
@@ -26,14 +26,14 @@ The Framework has four keys concepts:
 
 The description below shows the implementation of our relational data model. The model contains these tables:
 
-  1. Company: This table represents an organisation
-  2. Site : A tuple of this table represents a company geographical location
+  1. Company: This table represents an organisation (For Example: CSTB)
+  2. Site : A tuple of this table represents a geographical location of a company
   3. Building : A  tuple of this table represents  a building of a specific site
   4. Zone: A zone represents a floor of a building
   5. Building_Space: The building space represents a physical position of a zone like a desk or something else
   6. Sensor : The sensor collects the measurement points from different spaces in the building
      
-Each table has two mains fields: a name, an identifier (the primary key). The Site table contains a foreign key reference towards the Company, Building  references the Site, Zone references Building,  Building_Space references Zone and Sensor references Building_Space.
+Each table has two mains fields: a name, an identifier (the primary key). The Site table contains a foreign key reference towards the Company, Building  references the Site, Zone references Building,  Building_Space references Zone, Sensor references Building_Space.
 
 ***User Guide***
 
@@ -41,7 +41,7 @@ In order to run this demo,  you should have these prerequisites:
 
   1. Install Ontop Protégé Bundle : https://sourceforge.net/projects/ontop4obda/files
   2. Download the Postgresql JDBC Driver (42.5.4 or higher): https://jdbc.postgresql.org/download/postgresql-42.5.4.jar
-  3. Have access to a Postgres Database Server. You can use another RDMS (Mysql or something else) if you want, or use the h2 Protégé built-in database.
+  3. Have access to a Postgres Database Server. You can use another RDMS (Mysql or something else) if you want, or use the  Ontop-Protégé built-in h2 database.
 
  
 A. Run the Ontop Protégé by executing the run.sh script (Linux Platform) 
@@ -66,7 +66,6 @@ C . Load the TTL File
           a. Go to Reasoner -> Start Reasoner
      3.  Go to Window -> Tabs -> Onto Mappings
           a. Double click on mapping Editor to edit a triple to see target and source:
-          
           For Example
           Target: bigg:building_measurement/Company/{id} a bigg:Company ; bigg:name {name}^^xsd:string . 
           Source: SELECT * FROM "company"
