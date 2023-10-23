@@ -1,0 +1,41 @@
+beautifulsoup4==4.10.0
+bs4==0.0.1
+certifi==2020.12.5
+chardet==4.0.0
+cycler==0.11.0
+datadis @ git+https://github.com/BeeGroup-cimne/beedis@v1.0.3
+et-xmlfile==1.1.0
+fonttools==4.28.5
+future==0.18.2
+beemeteo @ git+https://github.com/BeeGroup-cimne/beemeteo@v0.2.1
+gemweb @ git+https://github.com/BeeGroup-cimne/beegweb@c7d880137b310da70dfbc4a767972ef8a8625c15
+happybase==1.2.0
+idna==2.10
+isodate==0.6.1
+kafka-python==2.0.2
+mrjob==0.7.4
+numpy==1.21.0
+neo4j==4.4.0
+openpyxl==3.0.7
+packaging==21.3
+pandas==1.2.5
+Pillow==9.0.0
+ply==3.11
+pure-sasl==0.6.2
+pycrypto==2.6.1
+PyHive==0.6.4
+pymongo==3.11.4
+pyparsing==3.0.6
+python-dateutil==2.8.1
+pytz==2021.1
+PyYAML==5.4.1
+requests==2.25.1
+sasl==0.3.1
+six==1.15.0
+soupsieve==2.3.1
+thrift==0.13.0
+thrift-sasl==0.4.3
+thriftpy2==0.4.14
+urllib3==1.26.4
+xlrd==2.0.1
+xmltodict==0.12.0

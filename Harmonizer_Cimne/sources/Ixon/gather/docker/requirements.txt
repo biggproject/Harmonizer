@@ -1,0 +1,12 @@
+mrjob==0.7.4
+pymongo==3.11.4
+python-dateutil==2.8.1
+pytz==2021.1
+requests==2.25.1
+sodapy==2.1.0
+BAC0==21.2.25
+happybase==1.2.0
+pycrypto==2.6.1
+psutil==5.9.0
+kafka-python==2.0.2
+python-dotenv==0.19.2
