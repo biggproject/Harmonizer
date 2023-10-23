@@ -4,7 +4,6 @@ The following links will provide information of each data source import tool:
 
 1. [GPG (Gestió de patrimoni de la generalitat)](./sources/GPG/README.md)
 2. [BIS (Building Information Source)](./sources/BIS/README.md)
-3. [Bulgaria (Building renovation projects from bulgaria)](./sources/Bulgaria/README.md)
 4. [CEEC3X (xml certificates)](./sources/CEEC3X/README.md)
 5. [Datadis (Distributor electricity energy)](./sources/Datadis/README.md)
 5. [Gemweb (Energy Management Platform)](./sources/Gemweb/README.md)
